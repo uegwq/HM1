@@ -5,22 +5,92 @@ date: 2024-07-20
 lang: de
 
 website:
-  repo-url: https://github.com/quarto-dev/quarto-demo
-  repo-actions: [edit, issue]
-  title: "_TEMPLATE"
+  title: "Höhere Mathematik 1 WS 23/24"
   sidebar:
     style: "docked"
     search: true
     contents:
-      - text: "The Index file you are seing right now"
-        href: "index.qmd"
-      - text: "The Readme file for good measures"
-        href: "README.md"
-      - section: "The Readme file but as a section"
+      - section: "1 Reele Zahlen"
         contents:
-          - "README.md"
-          - "index.qmd"
-          - "Testfile.md"
+        - "1 Reele Zahlen/Anordnungsaxiome.md"
+        - "1 Reele Zahlen/Beschränktheit.md"
+        - "1 Reele Zahlen/Der Betrag.md"
+        - "1 Reele Zahlen/Einige Definitionen und Formeln.md"
+        - "1 Reele Zahlen/Körperaxiome.md"
+        - "1 Reele Zahlen/Natürliche Zahlen.md"
+        - "1 Reele Zahlen/Schranken, Suprema, Maxima etc.md"
+        - "1 Reele Zahlen/Vollständige Induktion.md"
+        - "1 Reele Zahlen/Vollständigkeitsaxiom.md"
+      - section: "2 Folgen und Konvergenz"
+        contents:
+        - "2 Folgen und Konvergenz/Abzählbarkeit.md"
+        - "2 Folgen und Konvergenz/Bolzano-Weierstraß.md"
+        - "2 Folgen und Konvergenz/Cauchykriterium.md"
+        - "2 Folgen und Konvergenz/Folge in X.md"
+        - "2 Folgen und Konvergenz/Häufungswert.md"
+        - "2 Folgen und Konvergenz/Konvergenz von Folgen.md"
+        - "2 Folgen und Konvergenz/Limes superior, Limes inferior.md"
+        - "2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.md"
+        - "2 Folgen und Konvergenz/Teilfolge.md"
+        - "2 Folgen und Konvergenz/Verknüfung von Folgen.md"
+        - "2 Folgen und Konvergenz/nach oben - unten beschränkte Folgen.md"
+      - section: "3 Unendliche Reihen"
+        contents:
+        - "3 Unendliche Reihen/Cauchyprodukt.md"
+        - "3 Unendliche Reihen/Die Exponentialreihe.md"
+        - "3 Unendliche Reihen/Konvergenz von Permutationen von Reihen bzw. Folgen.md"
+        - "3 Unendliche Reihen/Konvergenz von Reihen.md"
+        - "3 Unendliche Reihen/Unendliche Reihe.md"
+        - "3 Unendliche Reihen/Verknüpfung konvergenter Reihen.md"
+      - section: "4 Potenzreihen"
+        contents:
+        - "4 Potenzreihen/Konvergenzradius.md"
+        - "4 Potenzreihen/Potenzreihe.md"
+      - section: "5 q-adische Entwicklung"
+        contents:
+      - section: "6 Grenzwerte bei Funktionen"
+        contents:
+        - "6 Grenzwerte bei Funktionen/Divergenz bei Grenzwerten.md"
+        - "6 Grenzwerte bei Funktionen/Grenzwert existiert.md"
+        - "6 Grenzwerte bei Funktionen/Häufungspunkt von Menge D.md"
+        - "6 Grenzwerte bei Funktionen/Verknüpfungen von Grenzwerten bei Funktionen.md"
+      - section: "7 Stetigkeit"
+        contents:
+        - "7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.md"
+        - "7 Stetigkeit/Abbildungen von Intervallen.md"
+        - "7 Stetigkeit/Abgeschlossene und Kompakte Mengen.md"
+        - "7 Stetigkeit/Beschränkte Funktion.md"
+        - "7 Stetigkeit/Gleichmäßige Stetigkeit.md"
+        - "7 Stetigkeit/Kompaktheit von Bildern stetiger Funktionen.md"
+        - "7 Stetigkeit/Lipschitzstetigkeit.md"
+        - "7 Stetigkeit/Nullstellensatz von Bolzano.md"
+        - "7 Stetigkeit/Stetigkeit von Potenzreihen.md"
+        - "7 Stetigkeit/Stetigkeit.md"
+        - "7 Stetigkeit/Verknüpfung stetiger Funktionen.md"
+        - "7 Stetigkeit/Zwischenwertsatz.md"
+      - section: "8 Funktionenfolgen und -reihen"
+        contents:
+        - "8 Funktionenfolgen und -reihen/Folgerungen aus Gleichmäßiger Stetigkeit.md"
+        - "8 Funktionenfolgen und -reihen/Gleichmäßige Konvergenz.md"
+        - "8 Funktionenfolgen und -reihen/Gleichmäßige konvergenz von Potenzreihen.md"
+        - "8 Funktionenfolgen und -reihen/Kriterium von Weierstraß.md"
+        - "8 Funktionenfolgen und -reihen/Punktweise Konvergenz.md"
+      - section: "9 Differentialrechnung"
+        contents:
+        - "9 Differentialrechnung/Abelscher Grenzwertsatz.md"
+        - "9 Differentialrechnung/Ableitung konstanter Funktionen.md"
+        - "9 Differentialrechnung/Ableitung und Exponentialfunktion.md"
+        - "9 Differentialrechnung/Analytische Folgerungen aus Ableitungsfunktionen.md"
+        - "9 Differentialrechnung/Die Regeln von de l'Hôpital.md"
+        - "9 Differentialrechnung/Differentiationsregeln.md"
+        - "9 Differentialrechnung/Differenzierbarkeit.md"
+        - "9 Differentialrechnung/Extrema.md"
+        - "9 Differentialrechnung/Innerer Punkt.md"
+        - "9 Differentialrechnung/Mittelwertsatz der Differentialrechnung.md"
+        - "9 Differentialrechnung/Satz von Taylor.md"
+        - "9 Differentialrechnung/Tangens und Arkustangens.md"
+        - "9 Differentialrechnung/n-male Differenzierbarkeit.md"
+        - "9 Differentialrechnung/n-te Ableitung einer Potenzreihe.md"
 
 execute:
   freeze: true
