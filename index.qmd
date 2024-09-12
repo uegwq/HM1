@@ -23,3 +23,5 @@ Hey und willkommen auf meiner Seite für die Vorlesungsnotizen aus der Vorlesung
 Wichtig: Die Notizen sind nicht komplett und erheben keinen Anspruch auf Vollständigkeit. Sie sollen dir als Ergänzung zur Vorlesung und beim Lernen helfen. Also schau gerne rein, aber vergiss nicht, auch in die Vorlesung oder Lehrbücher zu gucken, um die Themen wirklich zu durchdringen.
 
 Viel Erfolg beim Lernen und viel Spaß beim Durchstöbern!
+
+[Link zu HM2](https://uegwq.github.io/HM2)

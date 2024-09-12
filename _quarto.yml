@@ -5,6 +5,11 @@ date: 2024-07-20
 lang: de
 
 website:
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics: "G-J4RHPP41WJ"
   title: "Höhere Mathematik 1 WS 23/24"
   sidebar:
     style: "docked"
