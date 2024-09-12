@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>testfile – Höhere Mathematik 1 WS 23/24</title>
+<title>streng-monoton-wachsend-fallende-funktionen – Höhere Mathematik 1 WS 23/24</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -81,9 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Höhere Mathematik 1 WS 23/24
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html">7 Stetigkeit</a></li><li class="breadcrumb-item"><a href="../7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html">(streng) monoton wachsend, fallende Funktionen</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -98,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Höhere Mathematik 1 WS 23/24</a> 
+      <a href="../">Höhere Mathematik 1 WS 23/24</a> 
         <div class="sidebar-tools-main">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Dunkelmodus umschalten"><i class="bi"></i></a>
 </div>
@@ -122,55 +149,55 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1 Reele Zahlen/Anordnungsaxiome.html" class="sidebar-item-text sidebar-link">
+  <a href="../1 Reele Zahlen/Anordnungsaxiome.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Anordnungsaxiome</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1 Reele Zahlen/Beschränktheit.html" class="sidebar-item-text sidebar-link">
+  <a href="../1 Reele Zahlen/Beschränktheit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Beschränktheit</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1 Reele Zahlen/Der Betrag.html" class="sidebar-item-text sidebar-link">
+  <a href="../1 Reele Zahlen/Der Betrag.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Der Betrag</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1 Reele Zahlen/Einige Definitionen und Formeln.html" class="sidebar-item-text sidebar-link">
+  <a href="../1 Reele Zahlen/Einige Definitionen und Formeln.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Einige Definitionen und Formeln</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1 Reele Zahlen/Körperaxiome.html" class="sidebar-item-text sidebar-link">
+  <a href="../1 Reele Zahlen/Körperaxiome.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Körperaxiome</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1 Reele Zahlen/Natürliche Zahlen.html" class="sidebar-item-text sidebar-link">
+  <a href="../1 Reele Zahlen/Natürliche Zahlen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Natürliche Zahlen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1 Reele Zahlen/Schranken, Suprema, Maxima etc.html" class="sidebar-item-text sidebar-link">
+  <a href="../1 Reele Zahlen/Schranken, Suprema, Maxima etc.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schranken, Suprema, Maxima etc</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1 Reele Zahlen/Vollständige Induktion.html" class="sidebar-item-text sidebar-link">
+  <a href="../1 Reele Zahlen/Vollständige Induktion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vollständige Induktion</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1 Reele Zahlen/Vollständigkeitsaxiom.html" class="sidebar-item-text sidebar-link">
+  <a href="../1 Reele Zahlen/Vollständigkeitsaxiom.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vollständigkeitsaxiom</span></a>
   </div>
 </li>
@@ -187,67 +214,67 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Abzählbarkeit.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Abzählbarkeit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Abzählbarkeit</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Bolzano-Weierstraß.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Bolzano-Weierstraß.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bolzano-Weierstraß</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Cauchykriterium.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Cauchykriterium.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cauchykriterium</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Folge in X.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Folge in X.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Folge in X</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Häufungswert.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Häufungswert.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Häufungswert</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Konvergenz von Folgen.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Konvergenz von Folgen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Konvergenz von Folgen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Limes superior, Limes inferior.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Limes superior, Limes inferior.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Limes superior, Limes inferior</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Monotonie und Monotoniekriterium</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Teilfolge.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Teilfolge.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teilfolge</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/Verknüfung von Folgen.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/Verknüfung von Folgen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Verknüfung von Folgen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2 Folgen und Konvergenz/nach oben - unten beschränkte Folgen.html" class="sidebar-item-text sidebar-link">
+  <a href="../2 Folgen und Konvergenz/nach oben - unten beschränkte Folgen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">nach oben/unten beschränkte Folgen</span></a>
   </div>
 </li>
@@ -264,37 +291,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3 Unendliche Reihen/Cauchyprodukt.html" class="sidebar-item-text sidebar-link">
+  <a href="../3 Unendliche Reihen/Cauchyprodukt.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cauchyprodukt</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3 Unendliche Reihen/Die Exponentialreihe.html" class="sidebar-item-text sidebar-link">
+  <a href="../3 Unendliche Reihen/Die Exponentialreihe.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Die Exponentialreihe</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3 Unendliche Reihen/Konvergenz von Permutationen von Reihen bzw. Folgen.html" class="sidebar-item-text sidebar-link">
+  <a href="../3 Unendliche Reihen/Konvergenz von Permutationen von Reihen bzw. Folgen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Konvergenz von Permutationen von Reihen bzw. Folgen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3 Unendliche Reihen/Konvergenz von Reihen.html" class="sidebar-item-text sidebar-link">
+  <a href="../3 Unendliche Reihen/Konvergenz von Reihen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Konvergenz von Reihen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3 Unendliche Reihen/Unendliche Reihe.html" class="sidebar-item-text sidebar-link">
+  <a href="../3 Unendliche Reihen/Unendliche Reihe.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Unendliche Reihe</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./3 Unendliche Reihen/Verknüpfung konvergenter Reihen.html" class="sidebar-item-text sidebar-link">
+  <a href="../3 Unendliche Reihen/Verknüpfung konvergenter Reihen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Verknüpfung konvergenter Reihen</span></a>
   </div>
 </li>
@@ -311,13 +338,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4 Potenzreihen/Konvergenzradius.html" class="sidebar-item-text sidebar-link">
+  <a href="../4 Potenzreihen/Konvergenzradius.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Konvergenzradius</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4 Potenzreihen/Potenzreihe.html" class="sidebar-item-text sidebar-link">
+  <a href="../4 Potenzreihen/Potenzreihe.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Potenzreihe</span></a>
   </div>
 </li>
@@ -338,25 +365,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./6 Grenzwerte bei Funktionen/Divergenz bei Grenzwerten.html" class="sidebar-item-text sidebar-link">
+  <a href="../6 Grenzwerte bei Funktionen/Divergenz bei Grenzwerten.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Divergenz bei Grenzwerten</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./6 Grenzwerte bei Funktionen/Grenzwert existiert.html" class="sidebar-item-text sidebar-link">
+  <a href="../6 Grenzwerte bei Funktionen/Grenzwert existiert.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Grenzwert existiert</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./6 Grenzwerte bei Funktionen/Häufungspunkt von Menge D.html" class="sidebar-item-text sidebar-link">
+  <a href="../6 Grenzwerte bei Funktionen/Häufungspunkt von Menge D.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Häufungspunkt von Menge D</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./6 Grenzwerte bei Funktionen/Verknüpfungen von Grenzwerten bei Funktionen.html" class="sidebar-item-text sidebar-link">
+  <a href="../6 Grenzwerte bei Funktionen/Verknüpfungen von Grenzwerten bei Funktionen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Verknüpfungen von Grenzwerten bei Funktionen</span></a>
   </div>
 </li>
@@ -373,73 +400,73 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">(streng) monoton wachsend, fallende Funktionen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Abbildungen von Intervallen.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Abbildungen von Intervallen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Abbildungen von Intervallen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Abgeschlossene und Kompakte Mengen.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Abgeschlossene und Kompakte Mengen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Abgeschlossene und Kompakte Mengen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Beschränkte Funktion.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Beschränkte Funktion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Beschränkte Funktion</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Gleichmäßige Stetigkeit.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Gleichmäßige Stetigkeit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gleichmäßige Stetigkeit</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Kompaktheit von Bildern stetiger Funktionen.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Kompaktheit von Bildern stetiger Funktionen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Kompaktheit von Bildern stetiger Funktionen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Lipschitzstetigkeit.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Lipschitzstetigkeit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lipschitzstetigkeit</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Nullstellensatz von Bolzano.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Nullstellensatz von Bolzano.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Nullstellensatz von Bolzano</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Stetigkeit von Potenzreihen.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Stetigkeit von Potenzreihen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stetigkeit von Potenzreihen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Stetigkeit.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Stetigkeit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stetigkeit</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Verknüpfung stetiger Funktionen.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Verknüpfung stetiger Funktionen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Verknüpfung stetiger Funktionen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7 Stetigkeit/Zwischenwertsatz.html" class="sidebar-item-text sidebar-link">
+  <a href="../7 Stetigkeit/Zwischenwertsatz.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Zwischenwertsatz</span></a>
   </div>
 </li>
@@ -456,31 +483,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./8 Funktionenfolgen und -reihen/Folgerungen aus Gleichmäßiger Stetigkeit.html" class="sidebar-item-text sidebar-link">
+  <a href="../8 Funktionenfolgen und -reihen/Folgerungen aus Gleichmäßiger Stetigkeit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Folgerungen aus Gleichmäßiger Stetigkeit</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./8 Funktionenfolgen und -reihen/Gleichmäßige Konvergenz.html" class="sidebar-item-text sidebar-link">
+  <a href="../8 Funktionenfolgen und -reihen/Gleichmäßige Konvergenz.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gleichmäßige Konvergenz</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./8 Funktionenfolgen und -reihen/Gleichmäßige konvergenz von Potenzreihen.html" class="sidebar-item-text sidebar-link">
+  <a href="../8 Funktionenfolgen und -reihen/Gleichmäßige konvergenz von Potenzreihen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gleichmäßige konvergenz von Potenzreihen.html</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./8 Funktionenfolgen und -reihen/Kriterium von Weierstraß.html" class="sidebar-item-text sidebar-link">
+  <a href="../8 Funktionenfolgen und -reihen/Kriterium von Weierstraß.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Kriterium von Weierstraß</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./8 Funktionenfolgen und -reihen/Punktweise Konvergenz.html" class="sidebar-item-text sidebar-link">
+  <a href="../8 Funktionenfolgen und -reihen/Punktweise Konvergenz.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Punktweise Konvergenz</span></a>
   </div>
 </li>
@@ -497,85 +524,85 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Abelscher Grenzwertsatz.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Abelscher Grenzwertsatz.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Abelscher Grenzwertsatz</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Ableitung konstanter Funktionen.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Ableitung konstanter Funktionen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ableitung konstanter Funktionen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Ableitung und Exponentialfunktion.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Ableitung und Exponentialfunktion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ableitung und Exponentialfunktion</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Analytische Folgerungen aus Ableitungsfunktionen.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Analytische Folgerungen aus Ableitungsfunktionen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analytische Folgerungen aus Ableitungsfunktionen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Die Regeln von de l'Hôpital.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Die Regeln von de l'Hôpital.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Die Regeln von de l’Hôpital</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Differentiationsregeln.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Differentiationsregeln.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Differentiationsregeln</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Differenzierbarkeit.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Differenzierbarkeit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Differenzierbarkeit</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Extrema.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Extrema.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Extrema</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Innerer Punkt.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Innerer Punkt.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Innerer Punkt</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Mittelwertsatz der Differentialrechnung.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Mittelwertsatz der Differentialrechnung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Mittelwertsatz der Differentialrechnung</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Satz von Taylor.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Satz von Taylor.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Satz von Taylor</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/Tangens und Arkustangens.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/Tangens und Arkustangens.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tangens und Arkustangens</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/n-male Differenzierbarkeit.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/n-male Differenzierbarkeit.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">n-male Differenzierbarkeit</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./9 Differentialrechnung/n-te Ableitung einer Potenzreihe.html" class="sidebar-item-text sidebar-link">
+  <a href="../9 Differentialrechnung/n-te Ableitung einer Potenzreihe.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">n-te Ableitung einer Potenzreihe</span></a>
   </div>
 </li>
@@ -590,7 +617,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html">7 Stetigkeit</a></li><li class="breadcrumb-item"><a href="../7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html">(streng) monoton wachsend, fallende Funktionen</a></li></ol></nav>
 <div class="quarto-title">
 </div>
 
@@ -614,9 +641,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hello this is a test! Will this be displayed in the website?</p>
+<section id="streng-monoton-wachsend-fallende-funktionen" class="level2">
+<h2 class="anchored" data-anchor-id="streng-monoton-wachsend-fallende-funktionen">(streng) monoton wachsend, fallende Funktionen</h2>
+</section>
+<section id="definition" class="level2">
+<h2 class="anchored" data-anchor-id="definition">Definition</h2>
+<hr>
+<ol type="1">
+<li><p><span class="math inline">\(f:D\rightarrow\Bbb R\)</span> heißt monoton wachsend <span class="math inline">\(\iff\)</span> Aus <span class="math inline">\(x_1,x_2\in D\)</span> und <span class="math inline">\(x_1&lt;x_2 \implies f(x_1)\le f(x_2)\)</span>.</p></li>
+<li><ol type="1">
+<li><span class="math inline">\(f:D\rightarrow\Bbb R\)</span> heißt streng monoton wachsend <span class="math inline">\(\iff\)</span> Aus <span class="math inline">\(x_1,x_2\in D\)</span> und <span class="math inline">\(x_1&lt;x_2 \implies f(x_1)&lt; f(x_2)\)</span>.</li>
+</ol></li>
+<li><p>Entsprechend definiert man (streng) monoton fallend.</p></li>
+<li><p><span class="math inline">\(f\)</span> heißt (streng) monoton <span class="math inline">\(\iff\)</span> <span class="math inline">\(f\)</span> ist (streng) monoton wachsend oder (streng) monoton fallend.</p></li>
+</ol>
+</section>
+<section id="siehe-auch" class="level2">
+<h2 class="anchored" data-anchor-id="siehe-auch">Siehe auch</h2>
+<hr>
+<ul>
+<li>Hier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

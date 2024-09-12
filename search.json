@@ -1,33 +1,1797 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "_TEMPLATE",
-    "section": "",
-    "text": "And this is a very interesting text indeed :)",
+    "objectID": "2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html#definition-monotonie",
+    "href": "2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html#definition-monotonie",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition Monotonie",
+    "text": "Definition Monotonie\n\n\n\\((a_n)\\) heißt monoton wachsend \\(\\iff\\) \\(\\forall n\\in\\Bbb N: a_n\\le a_{n+1}\\)\n\\((a_n)\\) heißt streng monoton wachsend \\(\\iff\\) \\(\\forall n\\in\\Bbb N: a_n&lt; a_{n+1}\\)\n\\((a_n)\\) heißt (streng) monoton fallend entsprechend definiert\n\\((a_n)\\) heißt (streng) monoton \\(\\iff\\) \\((a_n)\\) ist (streng) monoton wachend oder (streng) monoton fallend",
     "crumbs": [
-      "The Index file you are seing right now"
+      "2 Folgen und Konvergenz",
+      "Monotonie und Monotoniekriterium"
     ]
   },
   {
-    "objectID": "index.html#this-is-a-template",
-    "href": "index.html#this-is-a-template",
-    "title": "_TEMPLATE",
-    "section": "",
-    "text": "And this is a very interesting text indeed :)",
+    "objectID": "2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html#monotoniekriterium",
+    "href": "2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html#monotoniekriterium",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Monotoniekriterium",
+    "text": "Monotoniekriterium\n\n\nDie Folge \\((a_n)\\) sei monoton wachsend und nach oben beschränkt. Dann ist \\((a_n)\\) konvergent und \\(\\lim_{n\\rightarrow \\infty}a_n=sup_{n_\\in\\Bbb N}a_n\\)\nDie Folge \\((a_n)\\) sei monoton fallend und nach unten beschränkt. Dann ist \\((a_n)\\) konvergent und \\(\\lim_{n\\rightarrow \\infty}a_n=inf_{n_\\in\\Bbb N}a_n\\)",
     "crumbs": [
-      "The Index file you are seing right now"
+      "2 Folgen und Konvergenz",
+      "Monotonie und Monotoniekriterium"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html#definition-niedrig",
+    "href": "2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html#definition-niedrig",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition niedrig",
+    "text": "Definition niedrig\n\nEs sei \\((a_n)\\) eine Folge. Ein Wert \\(m\\in\\Bbb N\\) heißt niedrig, wenn für alle \\(n\\ge m: a_n\\ge a_m\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Monotonie und Monotoniekriterium"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Monotonie und Monotoniekriterium.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nBolzano-Weierstraß",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Monotonie und Monotoniekriterium"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/nach oben - unten beschränkte Folgen.html#definition",
+    "href": "2 Folgen und Konvergenz/nach oben - unten beschränkte Folgen.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\((a_n)\\) eine Folge und \\(M:=\\{a_1,a_2,\\dots \\}\\).\n\n\\((a_n)\\) heißt nach oben beschränkt \\(\\iff\\) \\(M\\) ist nach oben beschränkt. Wir definieren:\n\\(sup \\ a_n = sup \\ M\\).\n\\((a_n)\\) heißt nach unten beschränkt \\(\\iff\\) \\(M\\) ist nach unten beschränkt. Wir definieren:\n\\(inf \\ a_n := inf \\ M\\).\n\\((a_n)\\) heißt beschränkt \\(\\iff\\) \\(M\\) ist beschränkt. Äquivalent ist:\n\\(\\exists c\\ge0\\forall n\\in \\Bbb N: |a_n|\\le c\\)",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "nach oben/unten beschränkte Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/nach oben - unten beschränkte Folgen.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/nach oben - unten beschränkte Folgen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "nach oben/unten beschränkte Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Verknüfung von Folgen.html#eigenschaften",
+    "href": "2 Folgen und Konvergenz/Verknüfung von Folgen.html#eigenschaften",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Eigenschaften",
+    "text": "Eigenschaften\n\nEs seien \\((a_n),(b_n),(c_n)\\) und \\((\\alpha_n)\\) Folgen, und \\(a,b,\\alpha\\in\\Bbb R\\). Dann gilt:\n\n\\(a_n\\rightarrow a  \\iff |a_n - a| \\rightarrow 0\\).\nGilt \\(|a_n-a|\\le \\alpha_n\\) ffa \\(n\\in\\Bbb N\\) und \\(\\alpha_n\\rightarrow 0\\), so gilt \\(a_n\\rightarrow a\\).\n\nEs gelte \\(a_n\\rightarrow a\\) und \\(b_n\\rightarrow b\\):\n\n\\(|a_n| \\rightarrow |a|\\)\n\\(a_n+b_n\\rightarrow a+b\\)\n\\(\\alpha a_n\\rightarrow \\alpha a\\)\n\\(a_nb_n\\rightarrow ab\\)\nIst \\(a\\not =0\\),so existiert ein \\(m\\in \\Bbb N\\) mit \\((\\frac{1}{a_n})^\\infty_{n=m}\\) \\(\\frac{1}{a_n}\\rightarrow\\frac{1}{a}\\)\nIst \\(a_n\\le b_n\\) ffa \\(n\\in N\\), dann ist \\(a\\le b\\)\nEs gelte \\(a_n\\rightarrow a\\) und \\(b_n\\rightarrow a\\). Wenn \\(a_n\\le c_n \\le b_n\\) ffa \\(n\\in\\Bbb N\\), dann gilt \\(c_n\\rightarrow a\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Verknüfung von Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Verknüfung von Folgen.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Verknüfung von Folgen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Verknüfung von Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Folge in X.html#definition",
+    "href": "2 Folgen und Konvergenz/Folge in X.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(X\\) eine Menge, \\(X \\not = \\emptyset\\). Eine Funktion \\(a: \\Bbb N \\rightarrow X\\) heißt eine Folge in X. Ist \\(X = \\Bbb R\\), so heißt a eine reele Folge. Ist \\(p\\in \\Bbb Z\\) und \\(a: \\{p,p+1,p+2,\\dots\\}\\rightarrow X\\) eine Funktion, so spricht man ebenfalls von einer Folge in X. Man schreibt: \\((a_n)_{n=p}^\\infty\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Folge in X"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Folge in X.html#schreibweise",
+    "href": "2 Folgen und Konvergenz/Folge in X.html#schreibweise",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Schreibweise",
+    "text": "Schreibweise\n\n\\(a_n\\) statt \\(a(n)\\);\n\\((a_1,a_2,\\dots)\\) oder \\((a_n)\\) oder \\((a_n)_{n=1}^\\infty\\) statt \\(a\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Folge in X"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Folge in X.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Folge in X.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nTeilfolge\nUnendliche Reihe\nKonvergenz von Folgen\nVerknüfung von Folgen\nnach oben - unten beschränkte Folgen",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Folge in X"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Teilfolge.html#definition",
+    "href": "2 Folgen und Konvergenz/Teilfolge.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\((a_n)\\) eine Folge und \\((n_1,n_2,n_3,\\dots)\\) eine Folge in \\(\\Bbb N\\) mit \\(n_1&lt;n_2&lt;n_3\\dots\\). Für \\(k\\in\\Bbb N\\) setze \\(b_k=a_{n_k}\\), also \\(b_1=a_{n_1}\\dots\\)\nDann heißt \\((b_k)=(a_{n_k})\\) eine Teilfolge (TF) von \\((a_n)\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Teilfolge"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Teilfolge.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Teilfolge.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHäufungswert\nBolzano-Weierstraß",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Teilfolge"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Häufungswert.html#definition",
+    "href": "2 Folgen und Konvergenz/Häufungswert.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\((a_n)\\) eine Folge. Eine Zahl \\(\\alpha\\in\\Bbb R\\) heißt ein Häufungswert von \\((a_n)\\), wenn eine Teilfolge \\(a_{n_k}\\) existiert, sodass \\(a_{n_k}\\rightarrow \\alpha\\).\nWir definieren die Menge aller Häufungspunkte\n\\(H(a_n):=\\{\\alpha\\in\\Bbb R: \\alpha \\text{ ist ein Häufungswert von }(a_n)\\}\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Häufungswert"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Häufungswert.html#satz-über-häufungswerte",
+    "href": "2 Folgen und Konvergenz/Häufungswert.html#satz-über-häufungswerte",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Satz über Häufungswerte",
+    "text": "Satz über Häufungswerte\n\n\\(\\alpha \\in H(a_n)\\iff \\forall \\varepsilon&gt;0: a_n\\in U_\\varepsilon(\\alpha) \\text{ für unendlich viele }n\\in\\Bbb N\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Häufungswert"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Häufungswert.html#eindeutigkeit-der-häufungswerte-bei-konvergenter-folge",
+    "href": "2 Folgen und Konvergenz/Häufungswert.html#eindeutigkeit-der-häufungswerte-bei-konvergenter-folge",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Eindeutigkeit der Häufungswerte bei konvergenter Folge",
+    "text": "Eindeutigkeit der Häufungswerte bei konvergenter Folge\n\nDie Folge \\((a_n)\\) sei konvergent, \\(a:= \\lim_{n\\rightarrow \\infty}\\) und \\((a_{n_k})\\) eine Teilfolge von \\((a_n)\\). Dann gilt:\n\\[a_{n_k}\\rightarrow a\\]\nAlso gilt \\(H(a_n)=\\{\\lim_{n\\rightarrow \\infty}a_n\\}\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Häufungswert"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Häufungswert.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Häufungswert.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Häufungswert"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Natürliche Zahlen.html#induktionsmenge",
+    "href": "1 Reele Zahlen/Natürliche Zahlen.html#induktionsmenge",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Induktionsmenge",
+    "text": "Induktionsmenge\n\nEine Menge \\(A \\subseteq \\Bbb R\\) heißt Induktionsmenge (IM), wenn:\n\n\\(1 \\in A\\)\n\\(x \\in A \\implies x+1\\in A\\)",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Natürliche Zahlen"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Natürliche Zahlen.html#natürliche-zahlen-1",
+    "href": "1 Reele Zahlen/Natürliche Zahlen.html#natürliche-zahlen-1",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Natürliche Zahlen",
+    "text": "Natürliche Zahlen\n\nDie Mende der natürlichen Zahlen \\(\\Bbb N\\) ist der Schnitt aller Induktionsmengen.",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Natürliche Zahlen"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Natürliche Zahlen.html#satz-1.3",
+    "href": "1 Reele Zahlen/Natürliche Zahlen.html#satz-1.3",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Satz 1.3",
+    "text": "Satz 1.3\n\n\n\\(\\Bbb N\\) ist eine Induktionsmenge\n\\(\\Bbb N\\) ist nicht nach oben beschränkt\nIst \\(x \\in \\Bbb R\\), so exisitert ein \\(n\\in \\Bbb n\\). Also gilt \\(x+1\\in \\Bbb N\\).",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Natürliche Zahlen"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Natürliche Zahlen.html#siehe-auch",
+    "href": "1 Reele Zahlen/Natürliche Zahlen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nVollständige Induktion\nFolge in X\nAbzählbarkeit",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Natürliche Zahlen"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Anordnungsaxiome.html#definition",
+    "href": "1 Reele Zahlen/Anordnungsaxiome.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\n\\(\\forall a,b\\in \\Bbb R: a\\leq b \\text{ oder } b \\leq a\\)\n\\(a \\leq b \\text{ und } b \\leq a \\implies a=b\\)\n\\(a \\leq b \\text{ und } b \\leq c \\implies a \\leq c\\)\n\\(a \\leq b \\text{ und } c\\in \\Bbb R \\implies a+c\\leq b+c\\)\n\\(a \\leq b \\text{ und } 0 \\leq c \\implies ac \\leq bc\\)",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Anordnungsaxiome"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Anordnungsaxiome.html#siehe-auch",
+    "href": "1 Reele Zahlen/Anordnungsaxiome.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nEinige Definitionen und Formeln",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Anordnungsaxiome"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Vollständige Induktion.html#definition",
+    "href": "1 Reele Zahlen/Vollständige Induktion.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nAus Einfachkeit halber übersprungen",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Vollständige Induktion"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Vollständige Induktion.html#siehe-auch",
+    "href": "1 Reele Zahlen/Vollständige Induktion.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Vollständige Induktion"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Schranken, Suprema, Maxima etc.html#definition",
+    "href": "1 Reele Zahlen/Schranken, Suprema, Maxima etc.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(M \\subseteq \\Bbb R\\)\n\n\\(M\\) heißt nach oben beschränkt, wenn \\(\\exists \\gamma \\in \\Bbb R \\forall x\\in M: x\\leq \\gamma\\). Man nennt \\(\\gamma\\) dann eine obere Schranke von M.\nIst \\(\\gamma\\) eine obere Schranke von \\(M\\), dann nennt man \\(\\gamma\\) das Supremum oder auch die kleinste obere Schranke, wenn für alle obere Schranken \\(\\delta\\) gilt \\(\\gamma \\leq \\delta\\).\n\\(M\\) heißt nach unten beschränkt, wenn \\(\\exists \\gamma \\in \\Bbb R \\forall x\\in M: x\\ge \\gamma\\). Man nennt \\(\\gamma\\) dann eine untere Schranke von M.\nIst \\(\\gamma\\) eine untere Schranke von \\(M\\), dann nennt man \\(\\gamma\\) das Infimum oder auch die kleinste untere Schranke, wenn für alle unteren Schranken \\(\\delta\\) gilt \\(\\gamma \\ge \\delta\\).\nHat \\(M\\) ein Infimum \\(inf \\ M\\) und ist \\(inf \\ M \\in M\\), dann nennt man \\(inf \\ M\\) auch das Minimum von \\(M\\).\nHat \\(M\\) ein Supremum \\(sup \\ M\\) und ist \\(sup \\ M \\in M\\), dann nennt man \\(sup \\ M\\) auch das Maximum von \\(M\\).",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Schranken, Suprema, Maxima etc"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Schranken, Suprema, Maxima etc.html#siehe-auch",
+    "href": "1 Reele Zahlen/Schranken, Suprema, Maxima etc.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nBeschränktheit",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Schranken, Suprema, Maxima etc"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Ableitung konstanter Funktionen.html#definition",
+    "href": "9 Differentialrechnung/Ableitung konstanter Funktionen.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEine Funktion ist konstant auf \\(I\\) \\(\\iff\\) \\(\\forall x\\in I: f'(x)=0\\).",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Ableitung konstanter Funktionen"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Ableitung konstanter Funktionen.html#siehe-auch",
+    "href": "9 Differentialrechnung/Ableitung konstanter Funktionen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Ableitung konstanter Funktionen"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Analytische Folgerungen aus Ableitungsfunktionen.html#definition",
+    "href": "9 Differentialrechnung/Analytische Folgerungen aus Ableitungsfunktionen.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\nIst \\(f'=g'\\) auf \\(I\\), so existiert ein \\(c\\in\\Bbb R\\) mit \\(f=g+c\\) auf \\(I\\)\nIst \\(f'\\ge 0\\) auf \\(I\\), so ist \\(f\\) monoton wachsend auf \\(I\\).\nIst \\(f'&gt;0\\) auf \\(I\\), so ist \\(f\\) streng monoton wachsend auf \\(I\\).\nIst \\(f'\\le 0\\) auf \\(I\\), so ist \\(f\\) monoton fallend auf \\(I\\).\nIst \\(f'&lt;0\\) auf \\(I\\), so ist \\(f\\) streng monoton fallend auf \\(I\\).\n\nEs sei \\(𝑛 ≥ 2, 𝑓 ∈ 𝐶^{n} (𝐼), 𝑥_0 ∈ 𝐼\\) sei ein innerer Punkt von \\(𝐼\\), und\n\\(𝑓 ' (𝑥_0) = 𝑓 '(𝑥_0) = . . . = 𝑓^{(𝑛−1)}(𝑥_0) = 0\\) und \\(𝑓 ^{(𝑛)} (𝑥_0) \\not= 0.\\)\nDann gilt:\n\nIst \\(𝑛\\) gerade und \\(𝑓^{(𝑛)} (𝑥_0) &lt; 0\\), so hat \\(𝑓\\) in \\(𝑥_0\\) ein lokales Maximum.\nIst \\(𝑛\\) gerade und \\(𝑓^{(𝑛)} (𝑥_0) &gt; 0\\), so hat \\(𝑓\\) in \\(𝑥_0\\) ein lokales Minimum.\nIst \\(𝑛\\) ungerade, so hat \\(𝑓\\) in \\(𝑥_0\\) kein lokales Extremum.",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Analytische Folgerungen aus Ableitungsfunktionen"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Analytische Folgerungen aus Ableitungsfunktionen.html#siehe-auch",
+    "href": "9 Differentialrechnung/Analytische Folgerungen aus Ableitungsfunktionen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Analytische Folgerungen aus Ableitungsfunktionen"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Ableitung und Exponentialfunktion.html#definition",
+    "href": "9 Differentialrechnung/Ableitung und Exponentialfunktion.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(f:I\\rightarrow\\Bbb R\\) auf differenzierbar. Dann gilt:\n\\(f' = f \\iff \\exists c: f(x)=ce^x\\).",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Ableitung und Exponentialfunktion"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Ableitung und Exponentialfunktion.html#siehe-auch",
+    "href": "9 Differentialrechnung/Ableitung und Exponentialfunktion.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Ableitung und Exponentialfunktion"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/n-male Differenzierbarkeit.html#definition",
+    "href": "9 Differentialrechnung/n-male Differenzierbarkeit.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(𝑓 : 𝐼 → R\\) auf \\(𝐼\\) differenzierbar. Ist \\(f'\\) in \\(𝑥_0 ∈ 𝐼\\) differenzierbar, so heißt \\(𝑓\\) in \\(𝑥_0\\) zweimal differenzierbar und \\(f''(x_0) := (f' ) '' (𝑥_0)\\) heißt die 2. Ableitung von 𝑓 in 𝑥0.\nMan schreibt auch dann:\n\\(f'''(𝑥_0), f^{(4)}(𝑥_0), 𝑓^{(5)}(𝑥_0), . . .\\)\nFür \\(n\\in\\Bbb N\\) heißt \\(f\\) auf \\(I\\) n-mal stetig differenzierbar \\(\\iff\\) \\(f\\) ist auf \\(I\\) n-mal differenzierbar und \\(f^{(n)}\\in C(I)\\). In diesem Fall gilt \\(f,f',f'',...,f^{(n)}\\in C(I)\\). Wir setzten:\n\\[C^0(I)=C(I), f^{(0)}:=f\\]\n\\[C^n(I):=\\{ f:I\\rightarrow\\Bbb R: f \\text{ ist auf I n-mal stetig differenzierbar}\\}\\]\n\\[C^\\infty(I):=\\bigcap_{n\\ge 0}C^n(I)\\]",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "n-male Differenzierbarkeit"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/n-male Differenzierbarkeit.html#siehe-auch",
+    "href": "9 Differentialrechnung/n-male Differenzierbarkeit.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "n-male Differenzierbarkeit"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Satz von Taylor.html#definition",
+    "href": "9 Differentialrechnung/Satz von Taylor.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nBeim Satz von Taylor geht es darum, wie wir Funktionen mit seinen Werten der Ableitung approximieren können. Es ist ziemlich klar, dass wir um einen Punkt \\(a\\) einer Funktion eine relativ gute lokale Annäherung machen können, indem wir die Steigung der Ableitung verwenden. Es gilt also ein bisschen\n\\(f(x,a)=f(a)+f'(a)+(x-a)\\). Der Satz von Taylor erweitert dieses Konzept aber wesentlich genauer, indem wir sagen\nEs sei \\(n\\in\\Bbb N_0\\) und \\(f\\) sei auf \\(I\\) \\((n+1)\\)-mal differenzierbar. Es seien \\(x,x_0\\in I\\) und \\(x\\not=x_0\\). Dann existiert ein \\(\\zeta\\in(min\\{x,x_0\\},max\\{x,x_0\\}\\) mit \\[f(x)=f(x_0)+\\frac{f'(x_0)}{1!}(x-x_0)+\\dots+\\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n+\\frac{f^{(n+1)}(\\zeta)}{(n+1)!}(x-x_0)^{n+1}\\] also \\[f(x)=\\sum^n_{k=0}\\frac{f^{(k)}(x_0)}{k!}(x-x_0)^k+\\frac{f^{n+1}(\\zeta)}{(n+1)!}(x-x_0)^{n+1}\\]\nDas geht, weil wir die Funktion mit dem Polynom mit grad \\(n\\) annähern, und dann den Rest mit \\(\\zeta\\) addieren.\nWenn n gegen unendlich geht, kann es sein, dass der Restterm gegen null geht. Dann kann man sagen, dass die Funktion gegen die Taylorreihe konvergiert.",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Satz von Taylor"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Satz von Taylor.html#siehe-auch",
+    "href": "9 Differentialrechnung/Satz von Taylor.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Satz von Taylor"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Differenzierbarkeit.html#definition",
+    "href": "9 Differentialrechnung/Differenzierbarkeit.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei im folgenden \\(I\\subseteq\\Bbb R\\) ein Intervall und \\(f:I\\rightarrow\\Bbb R\\) eine Funktion\n\\(f\\) heißt in \\(x_0\\in I\\) differenzierbar \\(\\iff\\) Es exisitiert\\[\\lim_{x\\rightarrow x_0}\\frac{f(x)-f(x_0)}{x-x_0}\\] Äquivalent ist: Es exisitert\\[\\lim_{h\\rightarrow 0}\\frac{f(x_0+h)-f(x_0)}{h}\\]In diesem Fall heißt dieser Grenzwert die Ableitung von \\(f\\) in \\(x_0\\) und wird mit \\(f'(x_0)\\) bezeichnet.\nIst \\(f\\) in jedem \\(x\\in I\\) differenzierbar, so heißt \\(f\\) auf \\(I\\) differenzierbar und die Ableitung \\(f':I\\rightarrow\\Bbb R\\) ist gegeben durch \\(x\\mapsto f'(x)\\).",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Differenzierbarkeit"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Differenzierbarkeit.html#folgerungen",
+    "href": "9 Differentialrechnung/Differenzierbarkeit.html#folgerungen",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Folgerungen",
+    "text": "Folgerungen\n\n\nIst \\(f\\) in \\(I\\) differenzierbar, so ist \\(f\\) in \\(x_0\\) stetig.",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Differenzierbarkeit"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Differenzierbarkeit.html#siehe-auch",
+    "href": "9 Differentialrechnung/Differenzierbarkeit.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Differenzierbarkeit"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Innerer Punkt.html#definition",
+    "href": "9 Differentialrechnung/Innerer Punkt.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(M\\subseteq\\Bbb R\\) und \\(g:M\\rightarrow\\Bbb R\\) eine Funktion.\n\\(x_0\\in M\\) heißt ein innerer Punkt von M, wenn es einen Deltabereich um \\(x_0\\) der in \\(M\\) enthalten ist \\(\\iff \\exists \\delta&gt;0:U_\\delta(x_0)\\subseteq M\\).",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Innerer Punkt"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Innerer Punkt.html#siehe-auch",
+    "href": "9 Differentialrechnung/Innerer Punkt.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Innerer Punkt"
+    ]
+  },
+  {
+    "objectID": "4 Potenzreihen/Konvergenzradius.html#definition",
+    "href": "4 Potenzreihen/Konvergenzradius.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\sum^\\infty_{n=0}a_n(x-x_0)^n\\) eine Potenzreihe. Wir setzen\\[\\rho:=\\begin{cases}  \\infty & \\text{falls } (\\sqrt[n]{\\left|a_n\\right|}) \\text{ unbeschränkt} \\\\ \\text{lim sup}_{n\\rightarrow\\infty}\\sqrt[n]{\\left|a_n\\right|} & \\text{falls } (\\sqrt[n]{\\left|a_n\\right|}) \\text{ beschränkt} \\end{cases}\\]und\\[r=\\begin{cases}0, & \\text{falls }\\rho=\\infty \\\\ \\infty, & \\text{falls }\\rho=0 \\\\ \\frac{1}{\\rho}, &\\text{falls } \\rho\\in(0,\\infty)\\end{cases}\\]r heißt der Konvergenzradius der Potenzreihe.",
+    "crumbs": [
+      "4 Potenzreihen",
+      "Konvergenzradius"
+    ]
+  },
+  {
+    "objectID": "4 Potenzreihen/Konvergenzradius.html#alternative-definition-über-quotientenkriterium",
+    "href": "4 Potenzreihen/Konvergenzradius.html#alternative-definition-über-quotientenkriterium",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Alternative Definition über Quotientenkriterium",
+    "text": "Alternative Definition über Quotientenkriterium\n\nEs sei \\(\\sum^\\infty_{n=0}a_n(x-x_0)^n\\) wieder eine Potenzreihe. Wenn jetzt die Folge \\(\\left(\\frac{a_n}{a_{n+1}}\\right)\\) konvergent ist, dann ist der Konvergenzradius von der Potenzreihe \\(L=\\lim_{n\\rightarrow\\infty}\\left|\\frac{a_n}{a_{n+1}}\\right|\\). :)\nMacht sinn wenn man kurz denkt okay wenn ich die Folgeglieder der Potenzreihe wie im Wurzelkrit durcheinander Teile dann kürzt sich da voll viel weg und im Exponenten bleibt \\(\\frac{1}{x-x_0}\\) und davor steht halt dann das \\(L\\). Und insgesamt konvergiert die ganze Reihe wenn das jetzt kleiner als 1 ist, und das ist es nur, wenn der Abstand zwischen \\(x\\) und \\(x_0\\) größer ist als \\(L\\) :=| no makes no sense",
+    "crumbs": [
+      "4 Potenzreihen",
+      "Konvergenzradius"
+    ]
+  },
+  {
+    "objectID": "4 Potenzreihen/Konvergenzradius.html#bedeutung",
+    "href": "4 Potenzreihen/Konvergenzradius.html#bedeutung",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Bedeutung",
+    "text": "Bedeutung\n\n\nIst der Konvergenzradius \\(r\\) einer Potenzreihe 0, so konvergiert sie nur für \\(x=x_0\\)\nIst \\(r=\\infty\\), so konvergiert die Potenzreihe für jedes \\(x\\in\\Bbb R\\).\nIst \\(r\\in(0,\\infty)\\), so konvergiert die Potenzreihe absolut für jedes \\(x\\in\\Bbb R\\), welches einen Abstand weniger als \\(r\\) von \\(x_0\\) hat. Für die Randfälle ist keine allgemeine Aussage möglich.",
+    "crumbs": [
+      "4 Potenzreihen",
+      "Konvergenzradius"
+    ]
+  },
+  {
+    "objectID": "4 Potenzreihen/Konvergenzradius.html#siehe-auch",
+    "href": "4 Potenzreihen/Konvergenzradius.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4 Potenzreihen",
+      "Konvergenzradius"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "",
+    "text": "Hey und willkommen auf meiner Seite für die Vorlesungsnotizen aus der Vorlesung von Dr Patrick Tolksdorf im Wintersemester 23/24! Hier findest du alles Mögliche aus der Vorlesung – von den Basics über reelle Zahlen bis hin zu komplexeren Themen wie Differentialrechnung und Potenzreihen.\nWichtig: Die Notizen sind nicht komplett und erheben keinen Anspruch auf Vollständigkeit. Sie sollen dir als Ergänzung zur Vorlesung und beim Lernen helfen. Also schau gerne rein, aber vergiss nicht, auch in die Vorlesung oder Lehrbücher zu gucken, um die Themen wirklich zu durchdringen.\nViel Erfolg beim Lernen und viel Spaß beim Durchstöbern!"
+  },
+  {
+    "objectID": "index.html#höhere-mathematik-1",
+    "href": "index.html#höhere-mathematik-1",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "",
+    "text": "Hey und willkommen auf meiner Seite für die Vorlesungsnotizen aus der Vorlesung von Dr Patrick Tolksdorf im Wintersemester 23/24! Hier findest du alles Mögliche aus der Vorlesung – von den Basics über reelle Zahlen bis hin zu komplexeren Themen wie Differentialrechnung und Potenzreihen.\nWichtig: Die Notizen sind nicht komplett und erheben keinen Anspruch auf Vollständigkeit. Sie sollen dir als Ergänzung zur Vorlesung und beim Lernen helfen. Also schau gerne rein, aber vergiss nicht, auch in die Vorlesung oder Lehrbücher zu gucken, um die Themen wirklich zu durchdringen.\nViel Erfolg beim Lernen und viel Spaß beim Durchstöbern!"
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Häufungspunkt von Menge D.html#definition",
+    "href": "6 Grenzwerte bei Funktionen/Häufungspunkt von Menge D.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(D\\subseteq\\Bbb R\\) und \\(x_0\\in\\Bbb R\\). \\(x_0\\) nennt man dann einen Häufungspunkt in D, wenn eine Folge \\((x_n)\\) in \\(D\\setminus\\{x_0\\}\\) existiert die gegen \\(x_0\\) konvergiert.",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Häufungspunkt von Menge D"
+    ]
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Häufungspunkt von Menge D.html#hilfssatz",
+    "href": "6 Grenzwerte bei Funktionen/Häufungspunkt von Menge D.html#hilfssatz",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Hilfssatz",
+    "text": "Hilfssatz\n\nEin \\(x_0\\in\\Bbb R\\) ist genau dann ein Häufungspunkt von \\(D\\), wenn für alle \\(\\varepsilon\\) der Schnitt des Epsilon-Bereichs und \\(D\\) ohne \\(x_0\\) nicht leer ist.",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Häufungspunkt von Menge D"
+    ]
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Häufungspunkt von Menge D.html#siehe-auch",
+    "href": "6 Grenzwerte bei Funktionen/Häufungspunkt von Menge D.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Häufungspunkt von Menge D"
+    ]
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Divergenz bei Grenzwerten.html#folgen",
+    "href": "6 Grenzwerte bei Funktionen/Divergenz bei Grenzwerten.html#folgen",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Folgen",
+    "text": "Folgen\n\nEs sei \\((x_n)\\) eine Folge in \\(\\Bbb R\\). Man sagt:\n\n\\(x_n\\rightarrow\\infty\\iff\\forall c&gt;0\\exists n_0\\in\\Bbb N\\forall n\\ge n_0:x_n&gt;c\\).\n\\(x_n\\rightarrow-\\infty\\iff\\forall c&lt;0\\exists n_0\\in\\Bbb N\\forall n \\ge n_0:x_n&lt;c\\).",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Divergenz bei Grenzwerten"
+    ]
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Divergenz bei Grenzwerten.html#funktionen",
+    "href": "6 Grenzwerte bei Funktionen/Divergenz bei Grenzwerten.html#funktionen",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Funktionen",
+    "text": "Funktionen\n\nMan sagt \\[\\lim_{x\\rightarrow x_0}g(x)=\\infty\\iff\\text{für jede Folge gilt }g(x_n)\\rightarrow\\infty\\]\nDasselbe für minus. Für \\(x_0\\) gilt dies auch mit \\(\\infty\\).",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Divergenz bei Grenzwerten"
+    ]
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Divergenz bei Grenzwerten.html#siehe-auch",
+    "href": "6 Grenzwerte bei Funktionen/Divergenz bei Grenzwerten.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Divergenz bei Grenzwerten"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Verknüpfung konvergenter Reihen.html#definition",
+    "href": "3 Unendliche Reihen/Verknüpfung konvergenter Reihen.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nDie Reihen \\(\\sum^\\infty_{n=1}a_n\\) und \\(\\sum^\\infty_{n=1}b_n\\) seien konvergent. Desweiteren seien \\(\\alpha,\\beta\\in\\Bbb R\\). Dann konvergiert\\[\\sum^\\infty_{n=1}(\\alpha a_n+\\beta b_n)\\] und es gilt\\[\\sum^\\infty_{n=1}(\\alpha a_n+\\beta b_n)=\\alpha\\sum^\\infty_{n=1}a_n+\\beta\\sum^\\infty_{n=1}b_n\\]",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Verknüpfung konvergenter Reihen"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Verknüpfung konvergenter Reihen.html#siehe-auch",
+    "href": "3 Unendliche Reihen/Verknüpfung konvergenter Reihen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Verknüpfung konvergenter Reihen"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Cauchyprodukt.html#definition-cauchyprodukt",
+    "href": "3 Unendliche Reihen/Cauchyprodukt.html#definition-cauchyprodukt",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition Cauchyprodukt",
+    "text": "Definition Cauchyprodukt\n\nEs seien zwei Reihen \\(\\sum^\\infty_{n=0}a_n\\) und \\(\\sum^\\infty_{n=0}b_n\\) gegeben. Man nennt die Reihe aus der Folge\\[c_n=\\sum^n_{k=0}a_kb_{n-k}=\\sum^n_{k=0}a_{n-k}b_{n}=a_0b_k+a_1b_{k-1}+\\dots+a_kb_0\\] das Cauchyprodukt der beiden Reihen.",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Cauchyprodukt"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Cauchyprodukt.html#eigenschaften-des-cauchyprodukts",
+    "href": "3 Unendliche Reihen/Cauchyprodukt.html#eigenschaften-des-cauchyprodukts",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Eigenschaften des Cauchyprodukts",
+    "text": "Eigenschaften des Cauchyprodukts\n\nEs seien zwei Reihen \\(\\sum^\\infty_{n=0}a_n\\) und \\(\\sum^\\infty_{n=0}b_n\\) absolut konvergent. Ihr Cauchyprodukt ist dann ebenfalls absolut konvergent und sein Reihenwert ist das Produkt der beiden Reihenwerte der Teilreihen.",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Cauchyprodukt"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Cauchyprodukt.html#siehe-auch",
+    "href": "3 Unendliche Reihen/Cauchyprodukt.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Cauchyprodukt"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Die Exponentialreihe.html#definition",
+    "href": "3 Unendliche Reihen/Die Exponentialreihe.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nFür \\(x\\in\\Bbb R\\) betrachte die Reihe\\[E(x):=\\sum^\\infty_{n=0}\\frac{x^n}{n!}=1+x+\\frac{x^2}{2!}+\\frac{x^3}{3!}+\\dots\\]Diese Reihe nennt man Exponentialreihe, denn \\(E(x)=e^x\\).",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Die Exponentialreihe"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Die Exponentialreihe.html#siehe-auch",
+    "href": "3 Unendliche Reihen/Die Exponentialreihe.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Die Exponentialreihe"
+    ]
+  },
+  {
+    "objectID": "8 Funktionenfolgen und -reihen/Kriterium von Weierstraß.html#definition",
+    "href": "8 Funktionenfolgen und -reihen/Kriterium von Weierstraß.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\n(nicht das Kriterium von Weierstraß)\nDie Folge \\((f_n)\\) konvergiere auf \\(D\\) punktweise gegen \\(f:D\\rightarrow\\Bbb R\\). Weiter sei \\((\\alpha_n)\\) eine positive Nullfolge und \\[\\forall n\\ge m\\ \\forall x\\in D: |f_n(x)-f(x)|\\le \\alpha_n.\\] Dann konvergiert \\((f_n)\\) auf \\(D\\) gleichmäßig gegen \\(f\\).\nKriterium von Weierstraß:\nEs sei \\(m\\in\\Bbb N\\), \\((c_n)\\) eine Folge in \\([0,\\infty]\\), \\(\\sum^\\infty_{n=1}\\) sei konvergent und \\[\\forall n\\ge m\\forall x\\in D: |f_n(x)|\\le c_n.\\]",
+    "crumbs": [
+      "8 Funktionenfolgen und -reihen",
+      "Kriterium von Weierstraß"
+    ]
+  },
+  {
+    "objectID": "8 Funktionenfolgen und -reihen/Kriterium von Weierstraß.html#siehe-auch",
+    "href": "8 Funktionenfolgen und -reihen/Kriterium von Weierstraß.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "8 Funktionenfolgen und -reihen",
+      "Kriterium von Weierstraß"
+    ]
+  },
+  {
+    "objectID": "8 Funktionenfolgen und -reihen/Punktweise Konvergenz.html#definition",
+    "href": "8 Funktionenfolgen und -reihen/Punktweise Konvergenz.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs gilt in diesem Kapitel stets \\(\\emptyset\\not=D\\subseteq\\Bbb R\\), \\((f_n)\\) eine Folge von Funktionen \\(f_n:D\\rightarrow\\Bbb R\\) und \\(s_n=f_1+f_2+f_3+\\dots+f_n\\).\n\nDie Funktionenfolge \\((f_n)\\) heißt auf \\(D\\) punktweise konvergent \\(\\iff\\) für jedes \\(x\\in D\\) ist die Folge \\((f(x_n))\\) konvergent.\nIn diesem Fall sei \\(f(x):=\\lim_{n\\rightarrow\\infty}f_n(x)\\). \\(f\\) heißt die Grenzfunktion von \\((f_n)\\).\nDie Funktionsreihe \\(\\sum^{\\infty}_{n=1}f_n(x)\\) heißt auf \\(D\\) punktweise konvergent \\(\\iff\\)Für jedes \\(x\\in D\\) ist die Folge \\(s_n(x)\\) konvergent.\nIn diesem Fall sei \\(f(x)=\\sum^\\infty_{n=1}f_n(x)\\)\ndie Summenfunktion von \\((f_n)\\).\n\nALSO:\\[\\forall x\\in D \\forall\\varepsilon&gt;0\\exists n_0=n_0(\\varepsilon,x)\\forall n\\ge n_0\\forall x\\in D: |f_n(x)-f(x)|&lt;\\varepsilon\\]",
+    "crumbs": [
+      "8 Funktionenfolgen und -reihen",
+      "Punktweise Konvergenz"
+    ]
+  },
+  {
+    "objectID": "8 Funktionenfolgen und -reihen/Punktweise Konvergenz.html#siehe-auch",
+    "href": "8 Funktionenfolgen und -reihen/Punktweise Konvergenz.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "8 Funktionenfolgen und -reihen",
+      "Punktweise Konvergenz"
+    ]
+  },
+  {
+    "objectID": "8 Funktionenfolgen und -reihen/Folgerungen aus Gleichmäßiger Stetigkeit.html#definition",
+    "href": "8 Funktionenfolgen und -reihen/Folgerungen aus Gleichmäßiger Stetigkeit.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nKonvergiert eine Funktionenfolge (oder Reihe) \\((f_n)\\) auf \\(D\\) gleichmäßig gegen \\(f:D\\rightarrow\\Bbb R\\). Dann gilt:\n\nSind alle \\(f_n\\) in \\(x_0\\in D\\) stetig, so ist \\(f\\) in \\(x_0\\) stetig.\nSind alle \\(f_n\\in C(D)\\), so ist \\(f\\in C(D)\\).",
+    "crumbs": [
+      "8 Funktionenfolgen und -reihen",
+      "Folgerungen aus Gleichmäßiger Stetigkeit"
+    ]
+  },
+  {
+    "objectID": "8 Funktionenfolgen und -reihen/Folgerungen aus Gleichmäßiger Stetigkeit.html#siehe-auch",
+    "href": "8 Funktionenfolgen und -reihen/Folgerungen aus Gleichmäßiger Stetigkeit.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "8 Funktionenfolgen und -reihen",
+      "Folgerungen aus Gleichmäßiger Stetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Kompaktheit von Bildern stetiger Funktionen.html#satz-7.11",
+    "href": "7 Stetigkeit/Kompaktheit von Bildern stetiger Funktionen.html#satz-7.11",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Satz (7.11)",
+    "text": "Satz (7.11)\n\nEs sei \\(\\emptyset\\not=D\\subseteq\\Bbb R\\) kompakt und \\(f\\) stetig in \\(D\\) (\\(f\\in C(D)\\)). Dann ist \\(f(D)\\) kompakt! :=)",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Kompaktheit von Bildern stetiger Funktionen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Kompaktheit von Bildern stetiger Funktionen.html#anderer-satz-dazu---7-12",
+    "href": "7 Stetigkeit/Kompaktheit von Bildern stetiger Funktionen.html#anderer-satz-dazu---7-12",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Anderer Satz Dazu :-) (7-12)",
+    "text": "Anderer Satz Dazu :-) (7-12)\n\n\nIst \\(I\\subseteq\\Bbb R\\) ein Intervall und ist \\(f\\in C(I)\\), so ist \\(f(I)\\) ein Intervall.\nSei \\(f\\in C([a,b])\\), \\(A:=min(f[a,b])\\) und \\(B:=max(f[a,b])\\), so ist \\(f([a,b])=[A,B]\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Kompaktheit von Bildern stetiger Funktionen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Kompaktheit von Bildern stetiger Funktionen.html#siehe-auch",
+    "href": "7 Stetigkeit/Kompaktheit von Bildern stetiger Funktionen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Kompaktheit von Bildern stetiger Funktionen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Lipschitzstetigkeit.html#definition",
+    "href": "7 Stetigkeit/Lipschitzstetigkeit.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(D\\subseteq\\Bbb R\\), und \\(f:D\\rightarrow\\Bbb R\\) eine Funktion. \\(f\\) heißt auf \\(D\\) Lipschitz-Stetig \\(\\iff\\) \\(\\exists L\\ge0\\forall x,y\\in D: |f(x)-f(y)|&lt;L|x-y|\\).\nLipschitz-Stetigkeit impliziert gleichmäßige Stetigkeit!",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Lipschitzstetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Lipschitzstetigkeit.html#siehe-auch",
+    "href": "7 Stetigkeit/Lipschitzstetigkeit.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Lipschitzstetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Stetigkeit von Potenzreihen.html#definition",
+    "href": "7 Stetigkeit/Stetigkeit von Potenzreihen.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\sum^\\infty_{n=0}a_n(x-x_0)^n\\) eine Potenzreihe mit Konvergenzradius \\(r&gt;0\\). Es sei \\(D:=(x_0-r,x_0+r)\\) falls \\(r&lt;\\infty\\) und \\(D:=\\Bbb R\\), falls \\(r=\\infty\\). Es gilt, dass \\[f(x)=\\sum^\\infty_{n=0}a_n(x-x_0)^n\\] \\(\\implies f\\in C(D)\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Stetigkeit von Potenzreihen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Stetigkeit von Potenzreihen.html#siehe-auch",
+    "href": "7 Stetigkeit/Stetigkeit von Potenzreihen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Stetigkeit von Potenzreihen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Abbildungen von Intervallen.html#eigenschaften",
+    "href": "7 Stetigkeit/Abbildungen von Intervallen.html#eigenschaften",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Eigenschaften",
+    "text": "Eigenschaften\n\n\nEs sei \\(I\\subseteq\\Bbb R\\) ein Intervall und \\(f:I\\rightarrow\\Bbb R\\) sei streng monoton. Dann ist \\(f\\) auf \\(I\\) injektiv, es existiert damit eine Umkehrabbildung auf \\(I\\) die auch streng monoton ist.\nEs sei \\(I\\subseteq\\Bbb R\\), \\(f\\in C(I)\\) und \\(f\\) sei auf \\(I\\) streng monoton. Dann ist \\(f(I)\\) ein Intervall[1] und \\(f^{-1}\\in C(f(I))\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Abbildungen von Intervallen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Abbildungen von Intervallen.html#folgerung",
+    "href": "7 Stetigkeit/Abbildungen von Intervallen.html#folgerung",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Folgerung",
+    "text": "Folgerung\n\n\nEs existiert eine Umkehrabbildung von der Exponentialfunktion. Diese ist 1. streng monoton wachsend und \\(E(\\Bbb R)=(0,\\infty)\\). Diese Funktion nennt man den Logarithmus.",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Abbildungen von Intervallen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Abbildungen von Intervallen.html#siehe-auch",
+    "href": "7 Stetigkeit/Abbildungen von Intervallen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\n[1 ] Kompaktheit von Bildern stetiger Funktionen",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Abbildungen von Intervallen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Zwischenwertsatz.html#definition",
+    "href": "7 Stetigkeit/Zwischenwertsatz.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs seien \\(a,b\\in\\Bbb R\\), \\(a&lt;b\\),\\(f\\in C([a,b])\\) und \\[y_0\\in\\left[min\\{f(a),f(b)\\},max\\{f(a),f(b)\\}\\right]\\]also zwischen \\(f(a)\\) und \\(f(b)\\). Dann existiert ein \\(x_0\\in[a,b]\\) mit \\(f(x_0)=y_0\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Zwischenwertsatz"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Zwischenwertsatz.html#siehe-auch",
+    "href": "7 Stetigkeit/Zwischenwertsatz.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Zwischenwertsatz"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Gleichmäßige Stetigkeit.html#ahja-definition",
+    "href": "7 Stetigkeit/Gleichmäßige Stetigkeit.html#ahja-definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Ahja Definition",
+    "text": "Ahja Definition\n\n\\(f: D\\rightarrow\\Bbb R\\) heißt auf \\(D\\) gleichmäßig stetig \\(\\iff\\) Sind \\((x_n)\\ (y_n)\\) Folgen in \\(D\\) mit \\(x_n-y_n\\rightarrow 0\\), so gilt \\(f(x_n)-f(y_n)\\rightarrow 0\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Gleichmäßige Stetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Gleichmäßige Stetigkeit.html#coole-bessere-vorstellung",
+    "href": "7 Stetigkeit/Gleichmäßige Stetigkeit.html#coole-bessere-vorstellung",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Coole bessere Vorstellung",
+    "text": "Coole bessere Vorstellung\n\nEine Funktion ist auf einer Menge gleichmäßig stetig, wenn der \\(\\varepsilon/\\delta\\) Bereich nicht von der Position, von \\(x_0\\) abhängt :=)",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Gleichmäßige Stetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Gleichmäßige Stetigkeit.html#satz-von-heine",
+    "href": "7 Stetigkeit/Gleichmäßige Stetigkeit.html#satz-von-heine",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Satz von Heine",
+    "text": "Satz von Heine\n\nIst \\(D\\subseteq\\Bbb R\\) kompakt und ist \\(f\\in C(D)\\), so ist \\(f\\) auf \\(D\\) gleichmäßig stetig.",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Gleichmäßige Stetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Gleichmäßige Stetigkeit.html#siehe-auch",
+    "href": "7 Stetigkeit/Gleichmäßige Stetigkeit.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Gleichmäßige Stetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html#definition",
+    "href": "7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\n\\(f:D\\rightarrow\\Bbb R\\) heißt monoton wachsend \\(\\iff\\) Aus \\(x_1,x_2\\in D\\) und \\(x_1&lt;x_2 \\implies f(x_1)\\le f(x_2)\\).\n\n\\(f:D\\rightarrow\\Bbb R\\) heißt streng monoton wachsend \\(\\iff\\) Aus \\(x_1,x_2\\in D\\) und \\(x_1&lt;x_2 \\implies f(x_1)&lt; f(x_2)\\).\n\nEntsprechend definiert man (streng) monoton fallend.\n\\(f\\) heißt (streng) monoton \\(\\iff\\) \\(f\\) ist (streng) monoton wachsend oder (streng) monoton fallend.",
+    "crumbs": [
+      "7 Stetigkeit",
+      "(streng) monoton wachsend, fallende Funktionen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html#siehe-auch",
+    "href": "7 Stetigkeit/(streng) monoton wachsend, fallende Funktionen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "(streng) monoton wachsend, fallende Funktionen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Beschränkte Funktion.html#definition",
+    "href": "7 Stetigkeit/Beschränkte Funktion.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\\(f:D\\rightarrow\\Bbb R\\) heißt beschränkt \\(\\iff\\) \\(f(D)\\) ist beschränkt.\nÄquivalent ist: \\(\\exists c\\ge0\\forall x\\in D: |f(x)|\\le c\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Beschränkte Funktion"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Beschränkte Funktion.html#siehe-auch",
+    "href": "7 Stetigkeit/Beschränkte Funktion.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Beschränkte Funktion"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Nullstellensatz von Bolzano.html#definition",
+    "href": "7 Stetigkeit/Nullstellensatz von Bolzano.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nIst \\(f\\in C([a,b]) und f(a)f(b)\\le 0\\), so existiert ein \\(x_0\\in[a,b]\\) mit \\(f(x_0)=0\\) (vgl. Zwischenwertsatz für \\(y_0=0\\)).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Nullstellensatz von Bolzano"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Nullstellensatz von Bolzano.html#siehe-auch",
+    "href": "7 Stetigkeit/Nullstellensatz von Bolzano.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Nullstellensatz von Bolzano"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Stetigkeit.html#definition",
+    "href": "7 Stetigkeit/Stetigkeit.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\n\\(f\\) heißt in \\(x_0\\) stetig \\(\\iff\\) Für jede Folge \\((x_n)\\) die gegen \\(x_0\\) geht gilt: \\(f(x_n)\\rightarrow f(x_0)\\).\n\\(f\\) heißt auf \\(D\\) stetig \\(\\iff\\) \\(f\\) ist in jedem \\(x\\in D\\) stetig.\nMan nennt \\(C(D):=C(D,\\Bbb R):=\\{g:D\\rightarrow\\Bbb R: g\\text{ ist stetig auf }D \\}\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Stetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Stetigkeit.html#alternative-definitionen",
+    "href": "7 Stetigkeit/Stetigkeit.html#alternative-definitionen",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Alternative Definitionen",
+    "text": "Alternative Definitionen\n\nEs sei \\(x_0\\in D\\).\n\n\\(f\\) ist in \\(x_0\\) stetig \\(\\iff\\) \\(\\forall \\varepsilon&gt;0 \\ \\exists \\delta&gt;0 \\forall x\\in U_\\delta(x_0)\\cap D:|x-x_0|&lt;\\delta\\implies |f(x)-f(x_0)|&lt;\\varepsilon\\)\nIst \\(x_0\\) ein Häufungspunkt von \\(D\\), so gilt:\n\\(f\\) ist in \\(x_0\\) stetig \\(\\iff\\) \\(\\lim_{x\\rightarrow x_0}f(x)=f(x_0)\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Stetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Stetigkeit.html#siehe-auch",
+    "href": "7 Stetigkeit/Stetigkeit.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Stetigkeit"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Abgeschlossene und Kompakte Mengen.html#definition",
+    "href": "7 Stetigkeit/Abgeschlossene und Kompakte Mengen.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(D\\subseteq\\Bbb R\\). Dann gilt:\n\n\\(D\\) ist abgeschlossen \\(\\iff\\) Jeder Häufungspunkt von \\(D\\) gehört zu \\(D\\).\n\\(D\\) ist kompakt \\(\\iff\\) \\(D\\) ist beschränkt und abgeschlossen.\nIst \\(D\\) kompakt und \\(D\\not=\\emptyset\\), so existieren \\(max\\ D\\) und \\(min\\ D\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Abgeschlossene und Kompakte Mengen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Abgeschlossene und Kompakte Mengen.html#siehe-auch",
+    "href": "7 Stetigkeit/Abgeschlossene und Kompakte Mengen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Abgeschlossene und Kompakte Mengen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Verknüpfung stetiger Funktionen.html#definition",
+    "href": "7 Stetigkeit/Verknüpfung stetiger Funktionen.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\nEs seien \\(f,g: D\\rightarrow\\Bbb R\\) stetig in \\(x_0\\in D\\) und \\(\\alpha,\\beta\\in\\Bbb R\\). Dann gilt, dass:\\[\\alpha f+\\beta b, fg, |f|\\] auch in \\(x_0\\) stetig sind!\nEs seien \\(D,D_0\\subseteq\\Bbb R\\) sowie \\(f:D\\rightarrow\\Bbb R\\) und \\(g: D_0\\rightarrow\\Bbb R\\) sowie \\(f(D)\\subseteq\\ D_0\\). Wenn \\(f\\) stetig in einem \\(x_0\\in D\\) ist und \\(g\\) stetig in \\(y_0:=f(x_0)\\), dann ist\\[f\\circ g:D\\rightarrow\\Bbb R, (g\\circ f)(x)=g(f(x))\\]stetig in \\(x_0\\).",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Verknüpfung stetiger Funktionen"
+    ]
+  },
+  {
+    "objectID": "7 Stetigkeit/Verknüpfung stetiger Funktionen.html#siehe-auch",
+    "href": "7 Stetigkeit/Verknüpfung stetiger Funktionen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "7 Stetigkeit",
+      "Verknüpfung stetiger Funktionen"
+    ]
+  },
+  {
+    "objectID": "8 Funktionenfolgen und -reihen/Gleichmäßige Konvergenz.html#definition",
+    "href": "8 Funktionenfolgen und -reihen/Gleichmäßige Konvergenz.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\n\\((f_n)\\) konvergiert auf \\(D\\) gleichmäßig gegen \\(f: D\\rightarrow\\Bbb R\\)\\(\\iff\\) \\[\\forall\\varepsilon&gt;0\\exists n_0=n_0(\\varepsilon)\\in\\Bbb N\\forall n\\ge n_0:|f_n(x)-f(x)|&lt;\\varepsilon\\]\n\\(\\sum^\\infty_{n=1}f_n\\) konvergiert auf \\(D\\) gleichmäßig gegen \\(f:D\\rightarrow\\Bbb R\\) \\(\\iff\\)\\[\\forall\\varepsilon&gt;0\\exists n_0=n_0(\\varepsilon)\\in\\Bbb N\\forall n\\ge n_0:|s_n(x)-f(x)|&lt;\\varepsilon\\]",
+    "crumbs": [
+      "8 Funktionenfolgen und -reihen",
+      "Gleichmäßige Konvergenz"
+    ]
+  },
+  {
+    "objectID": "8 Funktionenfolgen und -reihen/Gleichmäßige Konvergenz.html#siehe-auch",
+    "href": "8 Funktionenfolgen und -reihen/Gleichmäßige Konvergenz.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "8 Funktionenfolgen und -reihen",
+      "Gleichmäßige Konvergenz"
+    ]
+  },
+  {
+    "objectID": "8 Funktionenfolgen und -reihen/Gleichmäßige konvergenz von Potenzreihen.html",
+    "href": "8 Funktionenfolgen und -reihen/Gleichmäßige konvergenz von Potenzreihen.html",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "",
+    "text": "Absolut keine Ahnung :)\n+Identitätssatz für Potenzreihen / wie ohne beweis?!",
+    "crumbs": [
+      "8 Funktionenfolgen und -reihen",
+      "Gleichmäßige konvergenz von Potenzreihen.html"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Konvergenz von Permutationen von Reihen bzw. Folgen.html#definition-permutation-einer-folge",
+    "href": "3 Unendliche Reihen/Konvergenz von Permutationen von Reihen bzw. Folgen.html#definition-permutation-einer-folge",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition Permutation einer Folge",
+    "text": "Definition Permutation einer Folge\n\nEs sei \\((a_n)\\) eine Folge und \\(\\varphi: \\Bbb N\\rightarrow\\Bbb N\\) eine Bijektion. Setze \\((b_n):=a_{\\varphi(n)}\\). Dann ist \\((b_n)\\) eine Umordnung von \\((a_n)\\). jippie :)",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Konvergenz von Permutationen von Reihen bzw. Folgen"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Konvergenz von Permutationen von Reihen bzw. Folgen.html#eigenschaften-von-permutationen",
+    "href": "3 Unendliche Reihen/Konvergenz von Permutationen von Reihen bzw. Folgen.html#eigenschaften-von-permutationen",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Eigenschaften von Permutationen",
+    "text": "Eigenschaften von Permutationen\n\nEs sei \\((b_n)\\) eine Umordnung von \\((a_n)\\). Dann gilt:\n\nIst \\((a_n)\\) konvergent, dann ist \\((b_n)\\) konvergent und ihre beiden Grenzwerte sind gleich!!\nIst \\(\\sum^\\infty_{n=1}a_n\\) absolut konvergent, so ist \\(\\sum^\\infty_{n=1}b_n\\) absolut konvergent und ihre beiden Reihenwerte sind gleich. :)",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Konvergenz von Permutationen von Reihen bzw. Folgen"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Konvergenz von Permutationen von Reihen bzw. Folgen.html#siehe-auch",
+    "href": "3 Unendliche Reihen/Konvergenz von Permutationen von Reihen bzw. Folgen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Konvergenz von Permutationen von Reihen bzw. Folgen"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Konvergenz von Reihen.html#kriterien",
+    "href": "3 Unendliche Reihen/Konvergenz von Reihen.html#kriterien",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Kriterien",
+    "text": "Kriterien\n\n\nMonotoniekriterium:\nSind alle \\(a_n\\ge0\\) und ist \\((s_n)\\) beschränkt, so ist \\(\\sum^\\infty_{n=0}a_n\\) konvergent.\nCauchykriterium:\n\\(\\sum^\\infty_{n=1}a_n\\) ist konvergent \\(\\iff\\)\n\n\\[\\forall\\varepsilon\\ge0\\exists n_0\\in\\Bbb N\\forall m&gt;n\\ge n_0: \\left\\vert\\sum^m_{k=n+1}a_k\\right\\vert&lt;\\varepsilon\\]\n\nIst \\(\\sum^\\infty_{n=1}a_n\\) konvergent, so gilt \\(a_n\\rightarrow 0\\).\nDie Reihe \\(\\sum^\\infty_{n=1}a_n\\) sei konvergent. Dann ist für jedes \\(m\\in\\Bbb N\\) die Reihe \\(\\sum^\\infty_{n=m+1}a_n\\) konvergent und für \\(r_m=\\sum^\\infty_{n=m+1}a_n\\) gilt: \\(r_m\\rightarrow 0\\).\nLeibnitzkriterium:\nEs sei \\((b_n)\\) eine Folge, sodass\n\n\\((b_n)\\) ist monoton fallend und\n\\(b_n\\rightarrow 0\\)\n\nDann ist \\(\\sum^\\infty_{n=1}(-1)^{n+1}b_n\\) konvergent.\nMajorantenkriterium:\nGilt \\(|a_n|\\le b_n\\) ffa \\(n\\in\\Bbb N\\) und ist \\(\\sum^\\infty_{n=1}b_n\\) konvergent, so ist \\(\\sum^\\infty_{n=1}a_n\\) absolut konvergent.\nMinorantenkriterium:\nGilt \\(a_n\\ge b_n\\ge 0\\) ffa \\(n\\in\\Bbb N\\) und ist \\(\\sum^\\infty_{n=1}b_n\\) divergent, so ist \\(\\sum^\\infty_{n=1}a_n\\) divergent.\nWurzelkriterium (WK):\nEs sei \\((a_n)\\) eine Folge, \\(c_n:=\\sqrt[n]{\\left|a_n\\right|}\\).\n\nIst \\((c_n)\\) unbeschränkt, so ist \\(\\sum^\\infty_{n=1}a_n\\) divergent.\nEs sei \\((c_n)\\) beschränkt und \\(\\alpha:=\\lim\\ sup_{n\\rightarrow\\infty}c_n\\). Dann:\n\nIst \\(\\alpha&lt;1\\), so ist \\(\\sum^\\infty_{n=1}a_n\\) absolut konvergent.\nIst \\(\\alpha &gt;1\\), so ist \\(\\sum^\\infty_{n=1}a_n\\) divergent.\n\nIm Falle \\(\\alpha=1\\) ist keine allgemeine Aussage möglich.\n\nQuotientenkriterium:\n(Es sei \\(a_n\\not=0\\) ffa \\(n\\in\\Bbb N\\) und \\(c_n:=\\left|\\frac{a_{n+1}}{a_n}\\right|\\).\n\nIst \\(c_n\\ge1\\) ffa \\(n\\in\\Bbb N\\), so ist \\(\\sum^\\infty_{n=1}a_n\\) divergent.\nEs sei \\((c_n)\\) beschränkt. Dann gilt:\nIst \\(\\lim\\ sup_{n\\rightarrow\\infty}c_n&lt;1\\), so ist \\(\\sum^\\infty_{n=1}a_n\\) absolut konvergent.\nIst \\(\\lim\\ inf_{n\\rightarrow\\infty}c_n&gt;1\\), so ist \\(\\sum^\\infty_{n=1}a_n\\) divergent.)\n\nBasic Zusammenfassung:\n\\((a_n)\\) ist eine Folge, \\(c_n:=\\left|\\frac{a_{n+1}}{a_n}\\right|\\) und \\(\\alpha:=\\lim_{n\\rightarrow\\infty}c_n\\).\\(\\sum^\\infty_{n=1}a_n \\text{ ist}\\begin{cases} \\text{absolut konvergent} & \\text{falls } \\alpha &lt; 1 \\\\ \\text{divergent} & \\text{falls } \\alpha &gt; 1 \\end{cases}\\)\nIm falle \\(\\alpha=1\\) ist keine allgemeine Aussage möglich.",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Konvergenz von Reihen"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Konvergenz von Reihen.html#definition-absolute-konvergenz",
+    "href": "3 Unendliche Reihen/Konvergenz von Reihen.html#definition-absolute-konvergenz",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition absolute Konvergenz",
+    "text": "Definition absolute Konvergenz\n\n\\(\\sum^\\infty_{n=1}a_n\\) heißt absolut konvergent \\(\\iff\\) \\(\\sum^\\infty_{n=1}\\left|a_n\\right|\\) ist konvergent.\nEs sei \\(\\sum^\\infty_{n=1}a_n\\) absolut konvergent. Dann gilt:\n\n\\(\\sum^\\infty_{n=1}a_n\\) ist konvergent\n\\(\\left|\\sum^\\infty_{n=1}a_n\\right|\\le \\sum^\\infty_{n=1}|a_n|\\) (\\(\\triangle\\)-Ungleichung für Reihen.)",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Konvergenz von Reihen"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Konvergenz von Reihen.html#siehe-auch",
+    "href": "3 Unendliche Reihen/Konvergenz von Reihen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nKonvergenz von Permutationen von Reihen bzw. Folgen\nCauchyprodukt\nVerknüpfung konvergenter Reihen",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Konvergenz von Reihen"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Unendliche Reihe.html#definition",
+    "href": "3 Unendliche Reihen/Unendliche Reihe.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\((a_n)\\) eine folge.\n\nWir setzten \\(s_n=a_1+a_2+\\dots+a_n\\)\nDie Folge \\((s_n)\\) heißt (unendliche) Reihe und wird mit \\(\\sum^\\infty_{n=1}a_n\\) bezeichnet.\n\\(s_n\\) heißt n-te Teilsumme von \\(\\sum^\\infty_{n=1}a_n\\)\nIst \\(\\sum^\\infty_{n=1}a_n\\) konvergent, so heißt \\(\\lim_{n\\rightarrow\\infty}s_n\\) reihenwert und wird ebenfalls mit \\(\\sum^\\infty_{n=1}a_n\\) bezeichnet.",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Unendliche Reihe"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Unendliche Reihe.html#schwichtige-beispiele-und-reihenwerte",
+    "href": "3 Unendliche Reihen/Unendliche Reihe.html#schwichtige-beispiele-und-reihenwerte",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Schwichtige Beispiele und Reihenwerte",
+    "text": "Schwichtige Beispiele und Reihenwerte\n\n\nDie Reihe \\(\\sum^\\infty_{n=0}x^n\\) heißt geometrische Reihe. Sie konvergiert für \\(|x|&lt;1\\) gegen \\[\\sum^\\infty_{n=0}x^n=\\frac{1}{1-x}\\]\nDie Reihe \\(\\sum^\\infty_{n=0}n!\\) konvergiert gegen die eulersche Zahl \\(e\\).\nDie Reihe \\(\\sum^\\infty_{n=0}\\frac{1}{n}\\) heißt harmonische Reihe und divergiert.",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Unendliche Reihe"
+    ]
+  },
+  {
+    "objectID": "3 Unendliche Reihen/Unendliche Reihe.html#siehe-auch",
+    "href": "3 Unendliche Reihen/Unendliche Reihe.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nKonvergenz von Reihen\nVerknüpfung konvergenter Reihen\nDie Exponentialreihe\nPotenzreihe",
+    "crumbs": [
+      "3 Unendliche Reihen",
+      "Unendliche Reihe"
     ]
   },
   {
     "objectID": "Testfile.html",
     "href": "Testfile.html",
-    "title": "_TEMPLATE",
+    "title": "Höhere Mathematik 1 WS 23/24",
     "section": "",
-    "text": "Hello this is a test! Will this be displayed in the website?",
+    "text": "Hello this is a test! Will this be displayed in the website?"
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Verknüpfungen von Grenzwerten bei Funktionen.html#definition",
+    "href": "6 Grenzwerte bei Funktionen/Verknüpfungen von Grenzwerten bei Funktionen.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs seien \\(f,g,h:D\\rightarrow \\Bbb R\\) Funktionen. Desweiteren seien \\(a,b,\\alpha,\\beta\\in\\Bbb R\\) und \\(f(x)\\rightarrow a,g(x)\\rightarrow b\\) (\\(x\\) gegen \\(x_0\\)).\n\n\\(\\alpha f(x)+\\beta g(x)\\rightarrow \\alpha a + \\beta b\\).\n\\(f(x)g(x)\\rightarrow ab\\)\n\\(\\left|f(x)\\right|\\rightarrow|a|\\).\nIst \\(a\\not=0\\), so existiert ein \\(\\delta&gt;0\\), sodass \\(f(x)\\not=0\\ (x\\in D_\\delta(x_0))\\). Es gilt dann \\(\\frac{1}{f(x)}\\rightarrow\\frac{1}{a}\\).\nFür ein \\(\\delta&gt;0\\) gelte \\(f\\le g\\) auf \\(D_\\delta(x_0)\\). Dann ist \\(a\\le b\\).\nEinschnürung gibt es: wenn wie oben in einem Delta \\(f\\le h \\le g\\) und sowohl \\(f\\) als auch \\(g\\) zu \\(a\\) konvergieren, konvergiert auch \\(h\\) zum wert \\(a\\).",
     "crumbs": [
-      "The Readme file but as a section",
-      "Testfile.html"
+      "6 Grenzwerte bei Funktionen",
+      "Verknüpfungen von Grenzwerten bei Funktionen"
+    ]
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Verknüpfungen von Grenzwerten bei Funktionen.html#siehe-auch",
+    "href": "6 Grenzwerte bei Funktionen/Verknüpfungen von Grenzwerten bei Funktionen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Verknüpfungen von Grenzwerten bei Funktionen"
+    ]
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Grenzwert existiert.html#definition",
+    "href": "6 Grenzwerte bei Funktionen/Grenzwert existiert.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\\(\\lim_{x\\rightarrow x_0}f(x)\\) existiert \\(\\iff\\) Es gibt ein \\(a\\in\\Bbb R\\), sodass für jede Folge \\(f(x_n)\\rightarrow a\\). ODER \\(\\iff\\) Für jede Folge ist \\(f(x_n)\\) konvergent.\n!! \\(f(x_0)\\) ist hier nicht relevant, sondern nur das Verhalten von f “in der Nähe” von \\(x_0\\).",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Grenzwert existiert"
+    ]
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Grenzwert existiert.html#sätze-dazu",
+    "href": "6 Grenzwerte bei Funktionen/Grenzwert existiert.html#sätze-dazu",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Sätze dazu:",
+    "text": "Sätze dazu:\n\n\n\\[\\lim_{x\\rightarrow x_0}f(x)=a\\iff\\forall\\varepsilon&gt;0\\exists\\delta&gt;0\\forall x\\in D_\\delta(x_0):\\left|f(x)-a\\right|&lt;\\varepsilon\\]\nCauchykriterium\\[\\lim_{x\\rightarrow x_0}f(x) \\text{ existiert}\\iff\\forall\\varepsilon&gt;0\\exists\\delta&gt;0\\forall x_1,x_2\\in D_\\delta(x_0):\\left|f(x_1)-f(x_2)\\right|&lt;\\varepsilon\\]",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Grenzwert existiert"
+    ]
+  },
+  {
+    "objectID": "6 Grenzwerte bei Funktionen/Grenzwert existiert.html#siehe-auch",
+    "href": "6 Grenzwerte bei Funktionen/Grenzwert existiert.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "6 Grenzwerte bei Funktionen",
+      "Grenzwert existiert"
+    ]
+  },
+  {
+    "objectID": "TEMPLATES/-.html#definition",
+    "href": "TEMPLATES/-.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition"
+  },
+  {
+    "objectID": "TEMPLATES/-.html#siehe-auch",
+    "href": "TEMPLATES/-.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt"
+  },
+  {
+    "objectID": "4 Potenzreihen/Potenzreihe.html#definition",
+    "href": "4 Potenzreihen/Potenzreihe.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\((a_n)\\) eine Folge in \\(\\Bbb R\\) und \\(x_0\\in\\Bbb R\\). Eine Reihe der Form\n\\[\\sum^\\infty_{n=0}a_n(x-x_0)^n=a_0+a_1(x-x_0)+a_2(x-x_0)^2+\\dots\\]\nnennt man Potenzreihe :)",
+    "crumbs": [
+      "4 Potenzreihen",
+      "Potenzreihe"
+    ]
+  },
+  {
+    "objectID": "4 Potenzreihen/Potenzreihe.html#siehe-auch",
+    "href": "4 Potenzreihen/Potenzreihe.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nKonvergenzradius",
+    "crumbs": [
+      "4 Potenzreihen",
+      "Potenzreihe"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Mittelwertsatz der Differentialrechnung.html#definition",
+    "href": "9 Differentialrechnung/Mittelwertsatz der Differentialrechnung.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\\(\\exists\\zeta\\in (a,b): f'(\\zeta)=\\frac{f(b)-f(a)}{b-a}\\).",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Mittelwertsatz der Differentialrechnung"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Mittelwertsatz der Differentialrechnung.html#wikipedia-erklärung",
+    "href": "9 Differentialrechnung/Mittelwertsatz der Differentialrechnung.html#wikipedia-erklärung",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Wikipedia Erklärung",
+    "text": "Wikipedia Erklärung\n\nVeranschaulicht lässt sich der Mittelwertsatz geometrisch so deuten, dass es unter den unten genannten Voraussetzungen zwischen zwei Punkten eines Funktionsgraphen mindestens einen Kurvenpunkt gibt, für den die Tangente parallel zur Sekante durch die beiden gegebenen Punkte ist.",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Mittelwertsatz der Differentialrechnung"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Mittelwertsatz der Differentialrechnung.html#siehe-auch",
+    "href": "9 Differentialrechnung/Mittelwertsatz der Differentialrechnung.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Mittelwertsatz der Differentialrechnung"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Die Regeln von de l'Hôpital.html#definition",
+    "href": "9 Differentialrechnung/Die Regeln von de l'Hôpital.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(I=(a,b)\\), wobei \\(a=-\\infty\\) oder \\(b=\\infty\\) zugelassen ist. Es seien \\(f,g:I\\rightarrow\\Bbb R\\) auf \\(I\\) differenzierbar mit \\(g'(x)\\not=0\\) und es sei \\(c=a\\) oder \\(c=b\\). Es existiere \\[L=\\lim_{x\\rightarrow c}\\frac{f'(x)}{g'(x)}\\] Gilt (I) \\(\\lim_{x\\rightarrow x}f(x)=\\lim_{x\\rightarrow c}g(x)=0\\) oder (II) \\(\\lim_{x\\rightarrow c}g(x)=\\pm\\infty\\), so ist \\[\\lim_{x\\rightarrow c}\\frac{f(x)}{g(x)}=L\\]",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Die Regeln von de l'Hôpital"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Die Regeln von de l'Hôpital.html#siehe-auch",
+    "href": "9 Differentialrechnung/Die Regeln von de l'Hôpital.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Die Regeln von de l'Hôpital"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Differentiationsregeln.html#definition",
+    "href": "9 Differentialrechnung/Differentiationsregeln.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nDie Funktionen \\(f,g:I\\rightarrow\\Bbb R\\) seien in \\(x_0\\in I\\) differenzierbar. Dann gilt\n\n\\(\\alpha f+\\beta g\\) ist differenzierbar mit \\((\\alpha f+ \\beta g)'(x_0)=\\alpha f'(x_0)+\\beta g'(g_0)\\).\n\\(fg\\) ist differenzierbar mit \\((fg)'(x_0)=f(x_0)g'(x_0)+f'(x_0)g(x_0)\\).\nIst \\(g(x_0)\\not=0\\), so existiert ein \\(\\delta&gt;0\\) mit \\(g(x)\\not=0 (x\\in J:=I\\cap U_\\delta(x_0))\\). Die Funktion \\(\\frac{f}g:J\\rightarrow\\Bbb R\\) ist differenzierbar in \\(x_0\\) und\\[\\left(\\frac{f}g\\right)'(x_0)=\\frac{f'(x_0)g(x_0)-f(x_0)g'(x_0)}{g(x_0)^2}\\]\nEs sei \\(f\\in C(I)\\) streng monoton, in \\(x_0\\in I\\) dfferenzierbar und es sei \\(f'(x_0)\\not=0\\). Dann ist \\(f^{-1}:f(I)\\rightarrow\\Bbb R\\) differenziarber in \\(y_0=f(x_0)\\) und es gilt:\n\\((f^{-1})'(y_0)=\\frac{1}{f'(x_0)}=\\frac{1}{f'(f^{-1}(y_0))}\\).\nSatz 9.4 (Kettenregel):\nEs sei \\(J \\subseteq \\mathbb{R}\\) sei ein weiteres Intervall, \\(g: J \\rightarrow \\mathbb{R}\\) eine Funktion und \\(f(I) \\subseteq J\\). Weiter sei \\(f\\) in \\(x_0 \\in I\\) differenzierbar und \\(g\\) sei in \\(y_0 := f(x_0)\\) differenzierbar. Dann ist\n\\(g \\circ f: I \\rightarrow \\mathbb{R}\\) differenzierbar in \\(x_0\\) mit\n\\((g\\circ f)'(x_0)=g'(f(x_0))f'(x_0)\\).\nSatz (9.12) Potenzreihen\nEs sei \\(f(x)=\\sum^\\infty_{n=0}a_n(x-x_0)^n\\) eine Potenzreihe mit Konvergenzradius \\(r&gt;0\\). Es gilt, dass:\n\nDie Potenzreihe \\(\\sum^\\infty_{n=1}na_n(x-x_0)^{n-1}\\) hat auch den Konvergenzradius r und\n\\(f\\) ist auf seinem Konvergenzradius differenzierbar und die Reihe von \\(1.\\) ist seine Ableitungsfunktion.\n\nSinus, Cosinus\nNach 6. ist Sinus (weil es eine Potenzreihe ist) differenzierbar und es gilt:\\[(\\sin x)'=(\\sum^\\infty_{n=0}(-1)^n\\frac{x^{2n+1}}{(2n+1)!})'=\\sum^\\infty_{n=0}(-1)^n\\frac{(2n+1)(x^{2n})}{(2n+1)!}=\\sum^\\infty_{n=0}(-1)^n\\frac{x^{2n}}{(2n)!}=\\cos x\\]",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Differentiationsregeln"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Differentiationsregeln.html#siehe-auch",
+    "href": "9 Differentialrechnung/Differentiationsregeln.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Differentiationsregeln"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Abelscher Grenzwertsatz.html#definition",
+    "href": "9 Differentialrechnung/Abelscher Grenzwertsatz.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(f(x)=\\sum^\\infty_{n=0}a_n(x-x_0)^n\\) eine Potenzreihe mit Konvergenzradius \\(r\\in(0,\\infty)\\).\n\nKonvergiert die Potenzreihe auch in \\(x_0+r\\), so ist \\(f\\) stetig in \\(x_0+r\\).\nKonvergiert die Potenzreihe auch in \\(x_o-r\\), so ist \\(f\\) stetig in \\(x_0-r\\).",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Abelscher Grenzwertsatz"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Abelscher Grenzwertsatz.html#siehe-auch",
+    "href": "9 Differentialrechnung/Abelscher Grenzwertsatz.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Abelscher Grenzwertsatz"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/n-te Ableitung einer Potenzreihe.html#definition",
+    "href": "9 Differentialrechnung/n-te Ableitung einer Potenzreihe.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\sum^\\infty_{n=0}a_n(x-x_0)^n\\) eine Potenzreihe mit Konvergenzradius \\(r&gt;0\\).\n\\(f(x)=\\sum^\\infty_{n=0}a_n(x-x_0)^n\\)\nDann gilt \\(f\\in C^\\infty(I)\\) und\n\\[\\forall k\\in\\Bbb N_0 \\forall x\\in I: f^{(k)}(x)=\\sum^\\infty_{n=k}n(n-1)\\dots(n-k-1)a_n(x-x_0)^{n-k}\\] Mit \\(x=x_0\\) folgt insbesondere \\(f^{(k)}(x_0)=k!a_k\\)\nWenn wir das nach \\(a_k\\) umstellen steht dort \\[\\forall n\\in\\Bbb N_0\\forall x\\in I: a_k=\\frac{f^{(k)}(x_0)}{k!}\\] und somit \\[f(x)=\\sum^\\infty_{n=0}\\frac{f^{(k)}(x_0)}{k!}(x-x_0)^n\\]",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "n-te Ableitung einer Potenzreihe"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/n-te Ableitung einer Potenzreihe.html#siehe-auch",
+    "href": "9 Differentialrechnung/n-te Ableitung einer Potenzreihe.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "n-te Ableitung einer Potenzreihe"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Tangens und Arkustangens.html#definition",
+    "href": "9 Differentialrechnung/Tangens und Arkustangens.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nDie Funktion \\[\\tan:\\Bbb R\\setminus\\{(2k+1)\\frac{\\pi}{2}:k\\in\\Bbb Z\\}\\rightarrow \\Bbb R,\\tan x:=\\frac{\\sin x}{\\cos x}\\] heißt Tangens. Ableitung von Tangens auf Seite 90 im Script",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Tangens und Arkustangens"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Tangens und Arkustangens.html#siehe-auch",
+    "href": "9 Differentialrechnung/Tangens und Arkustangens.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Tangens und Arkustangens"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Extrema.html#definition",
+    "href": "9 Differentialrechnung/Extrema.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(M\\subseteq\\Bbb R\\) und \\(g:M\\rightarrow\\Bbb R\\) eine Funktion.\n\n\\(g\\) hat in \\(x_0\\in M\\) ein lokales Maximum (bzw. Minimum) \\(\\iff\\) \\[\\exists\\delta&gt;0\\forall x\\in U_\\delta(x)\\cap M:g(x)\\le g(x_0) \\ \\ [bzw.\\ g(x)\\ge g(x_0)]\\]\n\\(g\\) hat in \\(x_0\\) ein globales Maximum (bzw minimum) \\(\\iff\\) \\[\\forall x\\in M: g(x)\\le g(x_0) \\ \\ [bzw. \\ g(x)\\ge g(x_0)]\\]\nExtremum bedeutet Maximum oder Minimum",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Extrema"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Extrema.html#satz",
+    "href": "9 Differentialrechnung/Extrema.html#satz",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Satz",
+    "text": "Satz\n\nDie Funktion \\(f:I\\rightarrow\\Bbb R\\) habe in \\(x_0\\in I\\) ein lokales Extremum und sei in \\(x_0\\) differenzierbar. Ist \\(x_0\\) ein innerer Punkt von \\(I\\), so ist \\(f'(x_0)=0\\).",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Extrema"
+    ]
+  },
+  {
+    "objectID": "9 Differentialrechnung/Extrema.html#siehe-auch",
+    "href": "9 Differentialrechnung/Extrema.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "9 Differentialrechnung",
+      "Extrema"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Der Betrag.html#definition",
+    "href": "1 Reele Zahlen/Der Betrag.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\\(|a|= \\begin{cases} a, & \\text{falls } a \\geq 0 \\\\ -a, & \\text{falls } a &lt; 0 \\end{cases}\\)",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Der Betrag"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Der Betrag.html#regeln",
+    "href": "1 Reele Zahlen/Der Betrag.html#regeln",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Regeln",
+    "text": "Regeln\n\n\n\\(|-a| = |a|\\) und \\(|a-b| = |b-a|\\)\n\\(|a| \\ge 0\\)\n\\(|a| = 0 \\iff a = 0\\)\n\\(|ab|=|a||b|\\)\n\\(a \\le |a|\\) und \\(-a\\le |a|\\)\n\\(|a+b|\\le |a|+|b|\\)\n\\(||a|-|b||\\le|a-b|\\)",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Der Betrag"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Der Betrag.html#siehe-auch",
+    "href": "1 Reele Zahlen/Der Betrag.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nKonvergenz von Reihen\nKonvergenz von Folgen",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Der Betrag"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Beschränktheit.html#definition",
+    "href": "1 Reele Zahlen/Beschränktheit.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(M\\subseteq \\Bbb R\\). \\(M\\) heißt beschränkt: \\(\\iff\\) \\(M\\) ist nach oben und nach unten beschränkt. Äquivalent ist:\n\\[\\exists c \\ge 0 \\forall x\\in M: |x|\\le c\\]",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Beschränktheit"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Beschränktheit.html#satz-1.2",
+    "href": "1 Reele Zahlen/Beschränktheit.html#satz-1.2",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Satz 1.2",
+    "text": "Satz 1.2\n\nEs sei \\(\\emptyset \\not = B \\subseteq A \\subseteq \\Bbb R\\).\n\nIst \\(A\\) beschränkt, so ist \\(inf \\ A \\leq sup \\ A\\).\nIst \\(A\\) nach oben bzw. nach unten beschränkt, so ist \\(B\\) nach oben beschränkt und \\(sup \\ B \\leq sup \\ A\\) bzw. nach unten beschränkt und \\(inf \\ B \\ge inf \\ A\\).\n\\(A\\) sei nach oben beschränkt und \\(\\gamma\\) eine obere Schranke von \\(A\\). Dann gilt:\n\n\\[\\gamma = sup \\ A \\iff \\forall \\varepsilon &gt; 0 \\exists x = x(\\varepsilon) \\in A: x&gt;\\gamma - \\varepsilon\\]\n\n\\(A\\) sei nach unten beschränkt und \\(\\gamma\\) eine untere Schranke von \\(A\\). Dann gilt:\n\n\\[\\gamma = inf \\ A \\iff \\forall \\varepsilon &gt; 0 \\exists x = x(\\varepsilon) \\in A: x &lt; \\gamma  + \\varepsilon\\]",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Beschränktheit"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Beschränktheit.html#siehe-auch",
+    "href": "1 Reele Zahlen/Beschränktheit.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nKonvergenz von Folgen",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Beschränktheit"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Einige Definitionen und Formeln.html#definitionen-und-formeln",
+    "href": "1 Reele Zahlen/Einige Definitionen und Formeln.html#definitionen-und-formeln",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definitionen und Formeln",
+    "text": "Definitionen und Formeln\n\n\nGanzzahlige Potenzen: \\(a \\cdot a ... = a^n\\).\nFakultäten \\(n! = 1 \\cdot 2 \\cdot 3 \\dots \\cdot n\\). \\(0! = 1\\)\nBinomialkoeffizenten:\n\\(\\binom{n}{k} := \\frac{n!}{k!(n-k)!}\\)\nEs gilt, dass \\(\\binom{n}{k} + \\binom{n}{k-1} = \\binom{n+1}{k}\\).\nFür \\(a,b\\in \\Bbb R\\) und \\(n\\in \\Bbb N_0\\) gilt:\n\\(a^{n+1}-b^{n+1} = (a-b)(a^n+a^{n-1}b +a^{n-2}b^2+\\dots+ab^{n-1}+b^n)\\)\nBinomischer Satz (kennst du :P)\nBernoulische Ungleichung: Es sei \\(x\\in \\Bbb R\\) und \\(x &gt; -1\\). Dann gilt:\n\\[\\forall n\\in \\Bbb N: (1+x)^n\\ge1+nx\\]",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Einige Definitionen und Formeln"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Einige Definitionen und Formeln.html#siehe-auch",
+    "href": "1 Reele Zahlen/Einige Definitionen und Formeln.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Einige Definitionen und Formeln"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Vollständigkeitsaxiom.html#definition",
+    "href": "1 Reele Zahlen/Vollständigkeitsaxiom.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\nIst \\(\\emptyset \\not= M\\subseteq \\Bbb R\\) und ist \\(M\\) nach oben beschränkt, so ist \\(sup \\ M\\) vorhanden.",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Vollständigkeitsaxiom"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Vollständigkeitsaxiom.html#satz",
+    "href": "1 Reele Zahlen/Vollständigkeitsaxiom.html#satz",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Satz",
+    "text": "Satz\nIst \\(\\emptyset \\not= M\\subseteq \\Bbb R\\) und ist \\(M\\) nach unten beschränkt, so ist \\(inf \\ M\\) vorhanden.",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Vollständigkeitsaxiom"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Vollständigkeitsaxiom.html#siehe-auch",
+    "href": "1 Reele Zahlen/Vollständigkeitsaxiom.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nSchranken, Suprema, Maxima etc",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Vollständigkeitsaxiom"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Körperaxiome.html#definition",
+    "href": "1 Reele Zahlen/Körperaxiome.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nIn der Analysis ist die Grundmenge \\(\\Bbb R\\), die Menge der reelen Zahlen. Diese nehmen wir als gegeben an und fordern folgende Axiome:\n\n\\(\\forall a,b,c\\in \\Bbb R: a+(b+c)=(a+b)+c\\)\n\\(\\exists 0\\in \\Bbb R \\forall a\\in \\Bbb R: a + 0 = a\\)\n\\(\\forall a\\in \\Bbb R \\exists -a\\in R: a+(-a)=0\\)\n\\(\\forall a,b\\in R: a + b = b + a\\)\n(Auch für \\(\\cdot\\)).\n\\(\\forall a,b,c \\in \\Bbb R: a\\cdot (b+c)=a\\cdot b+a\\cdot c\\).\n\nAlle bekannten Grundrechenregeln lassen sich aus 1.-9. herleiten.",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Körperaxiome"
+    ]
+  },
+  {
+    "objectID": "1 Reele Zahlen/Körperaxiome.html#siehe-auch",
+    "href": "1 Reele Zahlen/Körperaxiome.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nEinige Definitionen und Formeln\nNatürliche Zahlen",
+    "crumbs": [
+      "1 Reele Zahlen",
+      "Körperaxiome"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#definition-für-fast-alle",
+    "href": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#definition-für-fast-alle",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition für fast alle",
+    "text": "Definition für fast alle\n\nEs sei eine Aussage \\(A(n)\\) die für jedes \\(n\\in \\Bbb N\\) definiert ist. \\(A(n)\\) gilt für fast alle (ffa) \\(n\\in \\Bbb N\\) \\(\\iff\\) \\(\\exists n_0\\in \\Bbb N \\forall n\\ge n_0: A(n)\\)",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Konvergenz von Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#definition-varepsilon-umgebung",
+    "href": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#definition-varepsilon-umgebung",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition \\(\\varepsilon\\)-Umgebung",
+    "text": "Definition \\(\\varepsilon\\)-Umgebung\n\nEs sei \\(a\\in \\Bbb R\\) und \\(\\varepsilon &gt; 0\\). Das Intervall\n\\[U_\\varepsilon(a):=(a-\\varepsilon,a+\\varepsilon)\\]\nheißt \\(\\varepsilon\\)-Umgebung von \\(a\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Konvergenz von Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#definition-konvergenz",
+    "href": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#definition-konvergenz",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition Konvergenz",
+    "text": "Definition Konvergenz\n\nEine Folge \\((a_n)\\) heißt konvergent\n\\(\\iff\\) \\(\\exists a\\in \\Bbb R\\): \\(\\text{zu jedem } \\varepsilon \\text{&gt;0 exisitiert ein }n_0 \\text{, sodass für jedes } n\\ge n_0 \\text{ gilt}: |a_n-a|&lt;\\varepsilon\\)\nIn diesem fall heißt \\(a\\) der Grenzwert von \\((a_n)\\).\nIst \\((a_n)\\) nicht konvergent, so nennt man \\((a_n)\\) divergent.",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Konvergenz von Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#eigenschaften-von-konvergenten-folgen",
+    "href": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#eigenschaften-von-konvergenten-folgen",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Eigenschaften von konvergenten Folgen",
+    "text": "Eigenschaften von konvergenten Folgen\n\nEs sei \\((a_n)\\) konvergent und \\(a=lim_{n\\rightarrow \\infty}a_n\\). Dann gilt\n\nGilt auch \\(a_n\\rightarrow b\\), so ist \\(a=b\\)\n\\((a_n)\\) ist beschränkt.",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Konvergenz von Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#folgerungen-aus-konvergenz",
+    "href": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#folgerungen-aus-konvergenz",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Folgerungen aus Konvergenz",
+    "text": "Folgerungen aus Konvergenz\n\n\nist \\(x\\in\\Bbb R\\), so existieren Folgen \\((r_n)\\) in \\(\\Bbb Q\\) mit \\(r_n\\rightarrow x\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Konvergenz von Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Konvergenz von Folgen.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nLimes superior, Limes inferior\nCauchykriterium\nMonotonie und Monotoniekriterium\nVerknüfung von Folgen\nKonvergenz von Permutationen von Reihen bzw. Folgen\nKonvergenz von Reihen",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Konvergenz von Folgen"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Cauchykriterium.html#einleitung-motivation",
+    "href": "2 Folgen und Konvergenz/Cauchykriterium.html#einleitung-motivation",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Einleitung / Motivation",
+    "text": "Einleitung / Motivation\n\nOhje ich finde man kann es auch Zappelkriterium nennen: also wenn eine Folge irgendwann nicht mehr rumzappelt und sich nicht mehr viel bewegt, also halt einfach Still ist und effektiv da bleibt wo sie ist, dann konvergiert sie. Wie fasst man das mathematisch auf?",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Cauchykriterium"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Cauchykriterium.html#definition",
+    "href": "2 Folgen und Konvergenz/Cauchykriterium.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\((a_n)\\) eine Folge.\n\\((a_n)\\) konvergiert \\(\\iff\\) \\(\\forall\\varepsilon\\ge0\\exists n_0\\in\\Bbb N\\forall n,m\\ge n_0: |a_n-a_m|&lt;\\varepsilon\\).\nEine Folge mit dieser eigenschaft nennt man Cauchyfolge.",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Cauchykriterium"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Cauchykriterium.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Cauchykriterium.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Cauchykriterium"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Bolzano-Weierstraß.html#satz-zu-monotonen-teilfolgen",
+    "href": "2 Folgen und Konvergenz/Bolzano-Weierstraß.html#satz-zu-monotonen-teilfolgen",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Satz zu Monotonen Teilfolgen",
+    "text": "Satz zu Monotonen Teilfolgen\n\nEs sei \\((a_n)\\) eine Folge. Dann enthält \\((a_n)\\) eine monotone Teilfolge\nBeweis: Blick ich nicht :D",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Bolzano-Weierstraß"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Bolzano-Weierstraß.html#satz-von-bolzano-weierstraß",
+    "href": "2 Folgen und Konvergenz/Bolzano-Weierstraß.html#satz-von-bolzano-weierstraß",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Satz von Bolzano-Weierstraß",
+    "text": "Satz von Bolzano-Weierstraß\n\nDie Folge \\((a_n)\\) ist beschränkt. Dann gilt: \\(H(a_n)\\not=\\emptyset\\), d.h. \\((a_n)\\) enthält eine konvergente Teilfolge.\nBeweis:\n\n\\((a_n)\\) hat eine Monotone Teilfolge\n\\((a_n)\\) ist bekanntlich beschränlt\nDie monotone Teilfolge ist beschränkt\nDie monotone Teilfolge konvergiert nach dem Monotoniekriterium",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Bolzano-Weierstraß"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Bolzano-Weierstraß.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Bolzano-Weierstraß.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Bolzano-Weierstraß"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Limes superior, Limes inferior.html#vorsatz",
+    "href": "2 Folgen und Konvergenz/Limes superior, Limes inferior.html#vorsatz",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Vorsatz",
+    "text": "Vorsatz\n\nDie Folge \\((a_n)\\) sei beschränkt. Es gilt:\n\n\\(H(a_n)\\) ist beschränkt\n\\(\\implies\\) \\(sup \\ H(a_n),inf \\ H(a_n)\\in H(a_n)\\), also existieren Maxima und Minima.",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Limes superior, Limes inferior"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Limes superior, Limes inferior.html#definition",
+    "href": "2 Folgen und Konvergenz/Limes superior, Limes inferior.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\n\nDie Zahl \\(lim \\ sup_{n\\rightarrow \\infty}a_n:=max \\ H(a_n)\\) heißt limes superior oder oberer Limes von \\((a_n)\\).\nDie Zahl \\(lim \\ inf{n\\rightarrow \\infty}a_n:=min \\ H(a_n)\\) heißt limes inferior oder unterer Limes von \\((a_n)\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Limes superior, Limes inferior"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Limes superior, Limes inferior.html#eigenschaften",
+    "href": "2 Folgen und Konvergenz/Limes superior, Limes inferior.html#eigenschaften",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Eigenschaften",
+    "text": "Eigenschaften\n\n\n\\(\\forall \\alpha\\in H(a_n): lim\\ inf_{n\\rightarrow\\infty} a_n\\le \\alpha \\le lim\\ sup_{n\\rightarrow \\infty} a_n\\),\nIst \\((a_n)\\) konvergent, so ist \\(lim\\ sup_{n\\rightarrow \\infty}=lim\\ inf_{n\\rightarrow \\infty}=\\lim_{n\\rightarrow\\infty}a_n\\).\n\\(\\forall\\alpha\\ge0:\\lim\\ sup_{n\\rightarrow\\infty}\\alpha a_n= \\alpha \\lim\\ sup_{n\\rightarrow\\infty}a_n\\).\n\\(\\lim\\ sup_{n\\rightarrow\\infty}-a_n=-\\lim\\ inf_{n\\rightarrow\\infty}a_n\\).\n\nDie Folge \\((c_n)\\) sei beschränkt. Dann gilt:\n\nIst \\(\\alpha:=\\lim\\ sup_{n\\rightarrow\\infty}c_n\\) und \\(x&gt;\\alpha\\), so ist \\(c_n&lt;x\\) ffa \\(n\\in\\Bbb N\\).\nIst \\(\\alpha:=\\lim\\ inf_{n\\rightarrow\\infty}c_n\\) und \\(x&lt;\\alpha\\), so ist \\(c_n&gt;x\\) ffa \\(n\\in\\Bbb N\\).\nIst \\(c_n\\ge0\\) und \\(\\lim\\ sup_{n\\rightarrow\\infty}=0\\), so gilt \\(c_n\\rightarrow0\\).",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Limes superior, Limes inferior"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Limes superior, Limes inferior.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Limes superior, Limes inferior.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Limes superior, Limes inferior"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Abzählbarkeit.html#definition",
+    "href": "2 Folgen und Konvergenz/Abzählbarkeit.html#definition",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(X\\not = \\emptyset\\) eine Menge.\n\n\\(X\\) heißt abzählbar \\(\\iff\\) Es gibt eine Folge \\((a_n)\\) in \\(X\\), mit \\(X = \\{a_1,a_2,\\dots\\}\\)\n\\(X\\) heißt überabzählbar \\(\\iff\\) \\(X\\) ist nicht abzählbar.",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Abzählbarkeit"
+    ]
+  },
+  {
+    "objectID": "2 Folgen und Konvergenz/Abzählbarkeit.html#siehe-auch",
+    "href": "2 Folgen und Konvergenz/Abzählbarkeit.html#siehe-auch",
+    "title": "Höhere Mathematik 1 WS 23/24",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "2 Folgen und Konvergenz",
+      "Abzählbarkeit"
     ]
   }
 ]
